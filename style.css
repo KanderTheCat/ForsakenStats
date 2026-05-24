@@ -1,0 +1,140 @@
+*{
+    font-family: 'Lucida Grande', sans-serif;
+}
+body{
+    background-color: rgb(6, 1, 17);
+    margin: 20px 50px;
+}
+h1, h2{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+header{
+    margin-bottom: 50px;
+}
+aside{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+aside p{
+    color: lightgray;
+    text-align: left;
+}
+aside div{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+}
+main{
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+h3{
+    color: lightgray;
+    text-align: left;
+    font-size: 30px;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#white_line{
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+}
+#KilBut{
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+button{
+    background-color: black;
+    border: 2px double white;
+    color: white;
+    text-align: center;
+    margin: 0 100px;
+    width: 20%;
+    height: 50px;
+    font-size: 100%;
+}
+button:hover{
+    background-color: rgb(39, 39, 39);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    line-height: 0.2;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#logo img{
+    transition: transform 0.8s ease; 
+}
+#logo img:hover{
+    transform: scale(1.35); 
+}
+#logo img{
+    width: 30%;
+}
+#Killers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#Killers section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+#Killers section img{
+    height: 250px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+#Killers section img:hover{
+    transform: scale(1.1); 
+}
+#Killers section div{
+    display: block;
+}
+#Survivors{
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+}
+#Survivors section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+#Survivors section img{
+    height: 250px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+#Survivors section img:hover{
+    transform: scale(1.1); 
+}
+#Survivors section div{
+    display: block;
+}
