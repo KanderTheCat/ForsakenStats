@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="text/javascript">
+        if (navigator.userAgentData?.mobile || /Mobi|Android/i.test(navigator.userAgent)){
+            window.location.href = "index_mobile.html";
+        }
+    </script>
     <meta charset="UTF-8">
     <title>Kander's Forsaken levels</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -201,7 +206,7 @@
         </script>
     </main>
     <footer>
-        <p>Last updated: <span id="edit_date"></span> CET</p>
+        <p>(Desktop Version)Last updated: <span id="edit_date"></span> CET</p>
         <p>(Renders, Forsaken title and gamepass icons are made by the Forsaken Team)</p>
     </footer>
         <script>
