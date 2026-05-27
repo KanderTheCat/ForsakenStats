@@ -94,47 +94,47 @@ footer p{
 #logo img{
     width: 30%;
 }
-#Killers{
+#killers{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-#Killers section{
+#killers section{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
 }
-#Killers section img{
+#killers section img{
     height: 250px;
     width: auto;
     transition: transform 0.3s ease;
 }
-#Killers section img:hover{
+#killers section img:hover{
     transform: scale(1.1); 
 }
-#Killers section div{
+#killers section div{
     display: block;
 }
-#Survivors{
+#survivors{
     display: none;
     grid-template-columns: repeat(2, 1fr);
 }
-#Survivors section{
+#survivors section{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
 }
-#Survivors section img{
+#survivors section img{
     height: 250px;
     width: auto;
     transition: transform 0.3s ease;
 }
-#Survivors section img:hover{
+#survivors section img:hover{
     transform: scale(1.1); 
 }
-#Survivors section div{
+#survivors section div{
     display: block;
 }
