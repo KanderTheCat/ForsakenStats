@@ -72,8 +72,8 @@ function Characters(TargetElement, DataText, FolderName) {
 
 window.addEventListener('DOMContentLoaded', () => {
     const AsideTag = document.querySelector('aside');
-    const KillerTag = document.getElementById('Killers');
-    const SurvivorTag = document.getElementById('Survivors');
+    const KillerTag = document.getElementById('killers');
+    const SurvivorTag = document.getElementById('survivors');
     if (AsideTag && StatsFile) {
         Stats(AsideTag, StatsFile);
     }
