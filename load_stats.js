@@ -78,9 +78,9 @@ window.addEventListener('DOMContentLoaded', () => {
         Stats(AsideTag, StatsFile);
     }
     if (KillerTag && KillerFile) {
-        Characters(KillerTag, KillerFile, 'Killers');
+        Characters(KillerTag, KillerFile, 'killers');
     }
     if (SurvivorTag && SurvivorFile) {
-        Characters(SurvivorTag, SurvivorFile, 'Survivors');
+        Characters(SurvivorTag, SurvivorFile, 'survivors');
     }
 });
