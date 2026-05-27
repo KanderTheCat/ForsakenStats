@@ -1,222 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <script type="text/javascript">
-        if (!navigator.userAgentData?.mobile && !/Mobi|Android/i.test(navigator.userAgent)) {
-            window.location.href = "index.html";
-        }
-    </script>
-    <meta charset="UTF-8">
-    <title>Kander's Forsaken levels - Mobile Edition</title>
-    <link rel="stylesheet" type="text/css" href="style_mobile.css">
-    <link rel="icon" type="image/x-icon" href="TTIcon.png">
-</head>
-
-<body>
-    <header>
-        <h1>My</h1>
-        <section id="logo">
-            <img src="ForsakenLogo.png" alt="Forsaken Logo Here">
-        </section>
-        <h1>Levels and Stats</h1>
-    </header>
-    <section id="TheCenter">
-        <aside>
-            <h2>My Stats</h2>
-            <p>Joined Forsaken - 02.07.2025 (Only got badge from joining friend)</p>
-            <p>Started playing Forsaken - 27.09.2025</p>
-            <p>Time Played: 33 days, 17 hours, 40 minutes and 47 seconds</p>
-            <div></div>
-            <p>Survivor Wins: 3843</p>
-            <p>Survivor Losses: 3278</p>
-            <p>Objectives Completed As Survivor: 10347</p>
-            <div></div>
-            <p>Killer Wins: 1793</p>
-            <p>Killer Losses: 560</p>
-            <p>Total Kills: 11456</p>
-            <div></div>
-            <p>Player Points ($): 66100$</p>
-            <p>Net Worth: 938648$</p>
-            <p>R$ Spent: 0 R$</p>
-        </aside>
-        <main>
-            <h2>My Levels</h2>
-            <div>
-                <button id="KilBut" onclick="toggle('K')">Killers</button>
-                <button id="SurBut" onclick="toggle('S')">Survivors</button>
-            </div>
-            <div id="white_line"></div>
-            <section id="Killers">
-                <section>
-                    <img src="Killers/Slasher.png" alt="Slasher">
-                    <div>
-                        <h3>Slasher</h3>
-                        <h3>Level: 257</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/C00lkidd.png" alt="C00lkidd">
-                    <div>
-                        <h3>C00lkidd</h3>
-                        <h3>Level: 213</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/JohnDoe.png" alt="John Doe">
-                    <div>
-                        <h3>John Doe</h3>
-                        <h3>Level: 277</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/Noli.png" alt="Noli">
-                    <div>
-                        <h3>Noli</h3>
-                        <h3>Level: 146</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/1x1x1x1.png" alt="1x1x1x1">
-                    <div>
-                        <h3>1x1x1x1</h3>
-                        <h3>Level: 221</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/Guest666.png" alt="Guest 666">
-                    <div>
-                        <h3>Guest 666</h3>
-                        <h3>Level: 155</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Killers/Nosferatu.png" alt="Nosferatu">
-                    <div>
-                        <h3>Nosferatu</h3>
-                        <h3>Level: 156</h3>
-                    </div>
-                </section>
+    <head>
+        <script type="text/javascript">
+            if (!navigator.userAgentData?.mobile && !/Mobi|Android/i.test(navigator.userAgent)) {
+                window.location.href = "index.html";
+            }
+        </script>
+        <meta charset="UTF-8">
+        <title>Kander's Forsaken levels - Mobile Edition</title>
+        <link rel="stylesheet" type="text/css" href="style_mobile.css">
+        <link rel="icon" type="image/x-icon" href="assets/TTIcon.png">
+    </head>
+    <body>
+        <header>
+            <h1>My</h1>
+            <section id="logo">
+                <img src="assets/ForsakenLogo.png" alt="Forsaken Logo Here">
             </section>
-            <section id="Survivors">
-                <section>
-                    <img src="Survivors/Shedletsky.png" alt="Shedletsky">
-                    <div>
-                        <h3>Shedletsky</h3>
-                        <h3>Level: 153</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Elliot.png" alt="Elliot">
-                    <div>
-                        <h3>Elliot</h3>
-                        <h3>Level: 138</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Noob.png" alt="Noob">
-                    <div>
-                        <h3>Noob</h3>
-                        <h3>Level: 203</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/JaneDoe.png" alt="Jane doe">
-                    <div>
-                        <h3>Jane Doe</h3>
-                        <h3>Level: 101</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Builderman.png" alt="Builderman">
-                    <div>
-                        <h3>Builderman</h3>
-                        <h3>Level: 101</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/007n7.png" alt="007n7">
-                    <div>
-                        <h3>007n7</h3>
-                        <h3>Level: 104</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/TwoTime.png" alt="Two Time">
-                    <div>
-                        <h3>Two Time</h3>
-                        <h3>Level: 339</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Guest1337.png" alt="Guest 1337">
-                    <div>
-                        <h3>Guest 1337</h3>
-                        <h3>Level: 125</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Taph.png" alt="Taph">
-                    <div>
-                        <h3>Taph</h3>
-                        <h3>Level: 202</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Dusekkar.png" alt="Dusekkar">
-                    <div>
-                        <h3>Dusekkar</h3>
-                        <h3>Level: 105</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Veeronica.png" alt="Veeronica">
-                    <div>
-                        <h3>Veeronica</h3>
-                        <h3>Level: 201</h3>
-                    </div>
-                </section>
-                <section>
-                    <img src="Survivors/Chance.png" alt="Chance">
-                    <div>
-                        <h3>Chance</h3>
-                        <h3>Level: 102</h3>
-                    </div>
-                </section>
-            </section>
-            <script>
-                function toggle(option) {
-                    const SK = document.getElementById("Killers");
-                    const KB = document.getElementById("KilBut");
-                    const SS = document.getElementById("Survivors");
-                    const SB = document.getElementById("SurBut");
-                    if (option === 'K') {
-                        SK.style.display = "grid";
-                        SS.style.display = "none";
-                        KB.style.backgroundColor = "rgb(206, 206, 206)";
-                        KB.style.color = "black";
-                        SB.style.backgroundColor = "black";
-                        SB.style.color = "white";
-                    } else if (option === 'S') {
-                        SK.style.display = "none";
-                        SS.style.display = "grid";
-                        SB.style.backgroundColor = "rgb(206, 206, 206)";
-                        SB.style.color = "black";
-                        KB.style.backgroundColor = "black";
-                        KB.style.color = "white";
+            <h1>Levels and Stats</h1>
+        </header>
+        <section id="TheCenter">
+            <aside>
+                <h2>My Stats</h2>
+            </aside>
+            <main>
+                <h2>My Levels</h2>
+                <div>
+                    <button id="KilBut" onclick="toggle('K')">Killers</button>
+                    <button id="SurBut" onclick="toggle('S')">Survivors</button>
+                </div>
+                <div id="white_line"></div>
+                <section id="Killers"></section>
+                <section id="Survivors"></section>
+                <script>
+                    function toggle(option) {
+                        const SK = document.getElementById("Killers");
+                        const KB = document.getElementById("KilBut");
+                        const SS = document.getElementById("Survivors");
+                        const SB = document.getElementById("SurBut");
+                        if (option === 'K') {
+                            SK.style.display = "grid";
+                            SS.style.display = "none";
+                            KB.style.backgroundColor = "rgb(206, 206, 206)";
+                            KB.style.color = "black";
+                            SB.style.backgroundColor = "black";
+                            SB.style.color = "white";
+                        } else if (option === 'S') {
+                            SK.style.display = "none";
+                            SS.style.display = "grid";
+                            SB.style.backgroundColor = "rgb(206, 206, 206)";
+                            SB.style.color = "black";
+                            KB.style.backgroundColor = "black";
+                            KB.style.color = "white";
+                        }
                     }
-                }
-            </script>
-        </main>
-    </section>
-    <footer>
-        <p>(Mobile Version)Last updated: <span id="edit_date"></span> CET</p>
-        <p>(Renders and Forsaken title are made by the Forsaken Team)</p>
-    </footer>
-    <script>
-        const lastEdit = new Date(document.lastModified);
-        document.getElementById("edit_date").innerText = lastEdit.toLocaleString();
-    </script>
-</body>
-
+                </script>
+            </main>
+        </section>
+        <footer>
+            <p>(Mobile Version)Last updated: <span id="edit_date"></span> CET</p>
+            <p>(Renders and Forsaken title are made by the Forsaken Team)</p>
+        </footer>
+        <script>
+            const lastEdit = new Date(document.lastModified);
+            document.getElementById("edit_date").innerText = lastEdit.toLocaleString();
+        </script>
+        <script src="load_stats.js"></script>
+    </body>
 </html>
