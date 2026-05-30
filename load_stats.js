@@ -26,6 +26,7 @@ Noli, Noli.png, 146
 1x1x1x1, 1x1x1x1.png, 222
 Guest 666, Guest666.png, 155
 Nosferatu, Nosferatu.png, 157
+Azure, Azure.png, 0 (duh Azure isnt out yet)
 `;
 
 //SURVIVORS
