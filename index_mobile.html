@@ -21,16 +21,17 @@
             <h1>Levels and Stats</h1>
         </header>
         <section id="TheCenter">
-            <aside>
-                <h2>My Stats</h2>
-            </aside>
-            <main>
+                <aside>
+                   <section id="stats" class="borderclass"></section>
+                    <section id="gamepasses" class="borderclass"></section>
+                </aside>
+            <main class="borderclass">
                 <h2>My Levels</h2>
                 <div>
                     <button id="KilBut" onclick="toggle('K')">Killers</button>
                     <button id="SurBut" onclick="toggle('S')">Survivors</button>
                 </div>
-                <div id="white_line"></div>
+                <div class="white_line"></div>
                 <section id="killers"></section>
                 <section id="survivors"></section>
                 <script>

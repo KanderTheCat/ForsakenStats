@@ -17,6 +17,14 @@ Net Worth: 960547$
 R$ Spent: 0 R$
 `;
 
+//GAMEPASSES
+const GamepassFile = `
+V.I.P, VIP.png
+2x Emotes, 2xEmotes.png
+Spec Ops Pack, SpecOpsPack.png
+Emote Pack #1, EmotePack1.png
+`;
+
 //KILLERS
 const KillerFile = `
 Slasher, Slasher.png, 263
@@ -49,12 +57,28 @@ function Stats(TargetElement, DataText) {
     const lines = DataText.split(/\r?\n/).map(line => line.trim());
     let HtmlOutput = '\n';
     lines.forEach(line => {
-        HtmlOutput += (line === '') ? `<div></div>\n` : `<p>${line}</p>\n`;
+        HtmlOutput += (line === '') ? `<div class="white_line"></div>\n` : `<p>${line}</p>\n`;
     });
     TargetElement.innerHTML = `\n <h2>My Stats</h2>` + HtmlOutput;
 }
 
-function Characters(TargetElement, DataText, FolderName) {
+function Gamepasses(TargetElement, DataText) {
+    const lines = DataText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+    let HtmlOutput = '\n';
+    lines.forEach(line => {
+        const [name, icon, level] = line.split(',').map(item => item.trim());
+        HtmlOutput +=
+            `<section>
+                <img src="assets/gamepasses/${icon}" alt="${name}">
+                <div>
+                    <h4>${name}</h4>
+                </div>
+            </section>\n`;
+    });
+    TargetElement.innerHTML = `\n <h2>Owned Gamepasses</h2><div class="white_line"></div>` + HtmlOutput;
+}
+
+function Levels(TargetElement, DataText, FolderName) {
     const lines = DataText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
     let HtmlOutput = '\n';
     lines.forEach(line => {
@@ -72,16 +96,20 @@ function Characters(TargetElement, DataText, FolderName) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    const AsideTag = document.querySelector('aside');
+    const StatsTag = document.getElementById('stats');
+    const GamepassTag = document.getElementById('gamepasses');
     const KillerTag = document.getElementById('killers');
     const SurvivorTag = document.getElementById('survivors');
-    if (AsideTag && StatsFile) {
-        Stats(AsideTag, StatsFile);
+    if (StatsTag && StatsFile) {
+        Stats(StatsTag, StatsFile);
+    }
+    if (GamepassTag && GamepassFile) {
+        Gamepasses(GamepassTag, GamepassFile);
     }
     if (KillerTag && KillerFile) {
-        Characters(KillerTag, KillerFile, 'killers');
+        Levels(KillerTag, KillerFile, 'killers');
     }
     if (SurvivorTag && SurvivorFile) {
-        Characters(SurvivorTag, SurvivorFile, 'survivors');
+        Levels(SurvivorTag, SurvivorFile, 'survivors');
     }
 });

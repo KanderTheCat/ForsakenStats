@@ -21,15 +21,16 @@
             <h1>Levels and Stats</h1>
         </header>
         <aside>
-            <h2>My Stats</h2>
+            <section id="stats" class="borderclass"></section>
+            <section id="gamepasses" class="borderclass"></section>
         </aside>
-        <main>
+        <main class="borderclass">
             <h2>My Levels</h2>
             <div>
                 <button id="KilBut" onclick="toggle('K')">Killers</button>
                 <button id="SurBut" onclick="toggle('S')">Survivors</button>
             </div>
-            <div id="white_line"></div>
+            <div class="white_line"></div>
             <section id="killers"></section>
             <section id="survivors"></section>
             <script>
@@ -58,9 +59,9 @@
         </main>
         <footer>
             <p>(Desktop Version) Last updated: <span id="edit_date"></span> CET</p>
-            <p>(Renders and Forsaken title are made by the Forsaken Team)</p>
+            <p>(Renders, Gamepasses and Forsaken title are made by the Forsaken Team)</p>
         </footer>
-            <script>
+        <script>
             const lastEdit = new Date(document.lastModified);
             document.getElementById("edit_date").innerText = lastEdit.toLocaleString();
         </script>
