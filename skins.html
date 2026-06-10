@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript">
+            if (navigator.userAgentData?.mobile || /Mobi|Android/i.test(navigator.userAgent)){
+                window.location.href = "index_mobile.html";
+            }
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <title>Kander's Forsaken Skins</title>
+        <link rel="stylesheet" type="text/css" href="skin_style.css">
+        <link rel="icon" type="image/x-icon" href="assets/TTIcon.png">
+    </head>
+    <body>
+        <header class="borderclass">
+            <a href="index.html">Go Back</a>
+            <h1>Character: </h1>
+        </header>
+        <h2>Obtained</h2>
+        <main id="obtained" class="borderclass"></main>
+        <h2>Skins I dont have</h2>
+        <main id="obtainable" class="borderclass"></main>
+        <script src="load_skins.js"></script>
+    </body>
+</html>

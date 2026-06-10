@@ -1,0 +1,75 @@
+*{
+    font-family: 'Lucida Grande', sans-serif;
+}
+.borderclass{
+    border: 2px double rgb(16, 3, 44);
+}
+body{
+    background-color: rgb(6, 1, 17);
+    margin: 20px 50px;
+}
+h1{
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-right: 333px;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: lightgray;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 0 0;
+}
+header{
+    background-color: black;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+a{
+    background-color: black;
+    border: 2px double white;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    width: 20%;
+    height: 50px;
+    font-size: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    clear: both;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#obtained, #obtainable{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px;
+    margin-bottom: 20px;
+}
+#obtained section, #obtainable section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+#obtained section img, #obtainable section img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+#obtained section img:hover, #obtainable section img:hover{
+    transform: scale(1.075); 
+}
+#obtained section div, #obtainable section div{
+    display: block;
+}

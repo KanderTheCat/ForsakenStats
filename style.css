@@ -127,43 +127,29 @@ footer p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-#killers section{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-}
-#killers section img{
-    height: 250px;
-    width: auto;
-    transition: transform 0.3s ease;
-}
-#killers section img:hover{
-    transform: scale(1.075); 
-}
-#killers section div{
-    display: block;
-}
 #survivors{
     display: none;
     grid-template-columns: repeat(2, 1fr);
 }
-#survivors section{
+#killers section, #survivors section{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
 }
-#survivors section img{
+#killers section img, #survivors section img{
     height: 250px;
     width: auto;
     transition: transform 0.3s ease;
 }
-#survivors section img:hover{
-    transform: scale(1.1); 
+#killers section img:hover, #survivors section img:hover{
+    transform: scale(1.075); 
 }
-#survivors section div{
+#killers section div, #survivors section div{
     display: block;
+}
+#killers section div button, #survivors section div button{
+    margin-left: auto;
+    width: 100%;
 }

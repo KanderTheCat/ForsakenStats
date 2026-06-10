@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Only got badge from joining friend)
 Started playing Forsaken - 27.09.2025
-Time Played: 35 days, 2 hours, 22 minutes and 50 seconds
+Time Played: 35 days, 5 hours, 1 minutes and 36 seconds
 
-Survivor Wins: 4002
-Survivor Losses: 3390
-Objectives Completed As Survivor: 10708
+Survivor Wins: 4017
+Survivor Losses: 3397
+Objectives Completed As Survivor: 10729
 
-Killer Wins: 1870
+Killer Wins: 1878
 Killer Losses: 570
-Total Kills: 11904
+Total Kills: 11944
 
-Player Points ($): 510$
-Net Worth: 975308$
+Player Points ($): 3419$
+Net Worth: 979284$
 R$ Spent: 0 R$
 `;
 
@@ -33,8 +33,8 @@ John Doe, JohnDoe.png, 281
 Noli, Noli.png, 147
 1x1x1x1, 1x1x1x1.png, 226
 Guest 666, Guest666.png, 156
-Nosferatu, Nosferatu.png, 166
-Azure, Azure.png, 0 (duh Azure isnt out yet)
+Nosferatu, Nosferatu.png, 168
+Azure, Azure.png, 0
 `;
 
 //SURVIVORS
@@ -48,7 +48,7 @@ Builderman, Builderman.png, 102
 Two Time, TwoTime.png, 357
 Guest 1337, Guest1337.png, 127
 Taph, Taph.png, 203
-Dusekkar, Dusekkar.png, 105
+Dusekkar, Dusekkar.png, 111
 Veeronica, Veeronica.png, 201
 Chance, Chance.png, 102
 `;
@@ -89,6 +89,7 @@ function Levels(TargetElement, DataText, FolderName) {
                 <div>
                     <h3>${name}</h3>
                     <h3>Level: ${level}</h3>
+                    <button type="button" onclick="ToSkins('${name}')">Skins</button>
                 </div>
             </section>\n`;
     });
@@ -100,16 +101,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const GamepassTag = document.getElementById('gamepasses');
     const KillerTag = document.getElementById('killers');
     const SurvivorTag = document.getElementById('survivors');
-    if (StatsTag && StatsFile) {
-        Stats(StatsTag, StatsFile);
-    }
-    if (GamepassTag && GamepassFile) {
-        Gamepasses(GamepassTag, GamepassFile);
-    }
-    if (KillerTag && KillerFile) {
-        Levels(KillerTag, KillerFile, 'killers');
-    }
-    if (SurvivorTag && SurvivorFile) {
-        Levels(SurvivorTag, SurvivorFile, 'survivors');
-    }
+    Stats(StatsTag, StatsFile);
+    Gamepasses(GamepassTag, GamepassFile);
+    Levels(KillerTag, KillerFile, 'killers');
+    Levels(SurvivorTag, SurvivorFile, 'survivors');
 });
