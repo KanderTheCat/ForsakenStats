@@ -211,8 +211,8 @@ const SkinFile = {
     `,
     "Nosferatu": `
         Gluttony, Gluttony.png, true
-        Werewolf, Werewolf.png, true
         Snowy Owl, SnowyOwl.png, true
+        Werewolf, Werewolf.png, true
         Classic, Classic.png, true
         Arachnid, Arachnid.png, true
     `,
@@ -227,7 +227,7 @@ const SkinFile = {
         Targetman, Targetman.png, true
         Bloxy, Bloxy.png, false
         Anniversary, Anniversary.png, true
-        Voice Acted, Voice Acted.png, true
+        Voice Acted, VoiceActed.png, true
         Zombieletsky, Zombieletsky.png, true
         Angel of Death, AngelOfDeath.png, true
         Holiday Hen, HolidayHen.png, true
@@ -246,7 +246,7 @@ const SkinFile = {
         BrightEyes, BrightEyes.png, true
         Fire Ninja, FireNinja.png, true
         Light Ninja, LightNinja.png, true
-        Shadow Ninja, Shadow Ninja.png, true
+        Shadow Ninja, ShadowNinja.png, true
         Mcgillavry, Mcgillavry.png, true
         Memoriam, Memoriam.png, true
         yksteldehS, yksteldehS.png, true
@@ -274,11 +274,11 @@ const SkinFile = {
         Snyfort, Snyfort.png, true
         Specialist, Specialist.png, true
         Guardian Angel, GuardianAngel.png, true
-        Telemon, Telemon.png, true
+        Telamon, Telamon.png, true
         Mamaletsky, Mamaletsky.png, true
         5 More Shedletskys, 5MoreShedletskys.png, true
         Shedletsky Cosplay, ShedletskyCosplay.png, true
-        10MoreShedletskys, 10MoreShedletskys.png, true
+        10MoreShedletskys, 5MoreShedletskys.png, true
         Golden, Golden.png, true
     `,
     "Elliot": `
@@ -360,6 +360,7 @@ const SkinFile = {
         Legacy Milestone II, LegacyMilestoneII.png, true
         Legacy Milestone I, LegacyMilestoneI.png, true
         VIP, VIP.png, true
+        Sixer, Sixer.png, true
         Anniversary, Anniversary.png, true
         Voice Acted, VoiceActed.png, true
         Easter, Easter.png, true
@@ -368,7 +369,6 @@ const SkinFile = {
         Tangled Lights, TangledLights.png, true
         Elf, Elf.png, true
         Cold Outside, ColdOutside.png, true
-        Sixer, Sixer.png, true
         Wrong, Wrong.png, true
         Inverted, Inverted.png, true
         Trapped, Trapped.png, true
@@ -499,7 +499,7 @@ const SkinFile = {
         Clean Gent, CleanGent.png, false
         Yolker, Yolker.png, true
         Voice Acted, VoiceActed.png, true
-        Count Duble'O VII, .png, true
+        Count Duble'O VII, CountDubleOVII.png, true
         Red-Nosed Reindeer, RedNosedReindeer.png, true
         Reindeer, Reindeer.png, true
         Toasty Marshmallow, ToastyMarshmallow.png, true
@@ -529,7 +529,7 @@ const SkinFile = {
         Sm4rt3st0uppy, Sm4rt3st0uppy.png, true
         Dummy, Dummy.png, true
         Alien, Alien.png, true
-        Anonymous Father, Anonymous Father.png, true
+        Anonymous Father, AnonymousFather.png, true
         Barista, Barista.png, true
         Cecil, Cecil.png, true
         Deivydoestutorials33, Deivydoestutorials33.png, true
@@ -542,10 +542,15 @@ const SkinFile = {
         007n7 Cosplay, 007n7Cosplay.png, true
     `,
     "Two Time": `
+        Nightshade, Nightshade.png, true
         Milestone IV, MilestoneIV.png, true
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Legacy Milestone IV, LegacyMilestoneIV.png, false
+        Legacy Milestone III, LegacyMilestoneIII.png, false
+        Legacy Milestone II, LegacyMilestoneII.png, false
+        Legacy Milestone I, LegacyMilestoneI.png, false
         Stealth Virtuoso, StealthVirtuoso.png, true
         Ghost, Ghost.png, false
         Voice Acted, VoiceActed.png, true
@@ -561,7 +566,7 @@ const SkinFile = {
         Party, Party.png, true
         Jock, Jock.png, true
         Prince, Prince.png, true
-        Princess, Priness.png, true
+        Princess, Princess.png, true
         Soulmates, Soulmates.png, true
         Punk, Punk.png, true
         Silverthorn, Silverthorn.png, true
@@ -592,30 +597,271 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        SoyG, SoyG.png, true
+        Greenbelt, Greenbelt.png, false
+        Furtive GI, FurtiveGI.png, true
+        Gunner, Gunner.png, true
+        Paintballer, Paintballer.png, true
+        Juggernaut, Juggernaut.png, true
+        Anniversary, Anniversary.png, true
+        Burnt Gingerbread, BurntGingerbread.png, false
+        Deathbringer, Deathbringer.png, true
+        Voice Acted, VoiceActed.png, true
+        Movies, Movies.png, true
+        Guest Who Cried Wolf, GuestWhoCriedWolf.png, true
+        Christmas Camo, ChristmasCamo.png, true
+        Gingerbread, Gingerbread.png, true
+        Tough Santa, ToughSanta.png, true
+        Ultrakill, Ultrakill.png, true
+        Matt, Matt.png, true
+        Molly, Molly.png, true
+        Modern, Modern.png, true
+        Scoutmaster, Scoutmaster.png, true
+        Agent, Agent.png, true
+        Camo, Camo.png, true
+        Off-Duty, OffDuty.png, true
+        Classic, Classic.png, true
+        Deep Sleep, DeepSleep.png, true
+        Gladiator, Gladiator.png, true
+        Hospital Patient, HospitalPatient.png, true
+        Little Brother, LittleBrother.png, true
+        Modern Matt, ModernMatt.png, true
+        Sailor, Sailor.png, true
+        Steampunk, Steampunk.png, true
+        Bombo, Bombo.png, true
+        Commando, Commando.png, true
+        Boy, Boy.png, true
+        Girl, Girl.png, true
+        Counter, Counter.png, true
+        Inception's Centurion, InceptionsCenturion.png, true
+        Alien, Alien.png, true
+        Jake, Jake.png, true
+        Kay-o, Kayo.png, true
+        Bouncer Guest, BouncerGuest.png, true
+        Biker, Biker.png, true
+        Invincible, Invincible.png, true
+        Leon, Leon.png, true
+        Nacho, Nacho.png, true
+        Red Carpet, RedCarpet.png, true
+        Soy, Soy.png, true
+        Rangers, Rangers.png, true
+        Tommy, Tommy.png, true
+        Barbarian, Barbarian.png, true
+        Clobberbones, Clobberbones.png, true
+        Block, Block.png, true
+        Swashbuckler, Swashbuckler.png, true
+        Guard, Guard.png, true
+        Bobby, Bobby.png, true
+        Gene, Gene.png, true
+        Rebel, Rebel.png, true
+        Ally that only kills zombies not u, AllyThatOnlyKillsZombiesNotU.png, true
+        Son Guest, SonGuest.png, true
+        Dragon Guest, DragonGuest.png, true
+        Sorcerer, Sorcerer.png, true
+        Guest Cosplay, GuestCosplay.png, true
     `,
     "Taph": `
         Milestone IV, MilestoneIV.png, true
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Trapper, Trapper.png, true
+        Ninja, Ninja.png, true
+        Warhead, Warhead.png, true
+        Mumble, Mumble.png, true
+        Hooded Raven, HoodedRaven.png, true
+        Ninja Santa, NinjaSanta.png, true
+        Specialist Elf, SpecialistElf.png, true
+        Winter Conjuror, WinterConjuror.png, true
+        Arctic, Arctic.png, true
+        Elf, Elf.png, true
+        Wayward, Wayward.png, true
+        Deadly Dark, DeadlyDark.png, true
+        Viridian, Viridian.png, true
+        Overseer, Overseer.png, true
+        Spacelord, Spacelord.png, true
+        Shady Mercenary, ShadyMercenary.png, true
+        Astral Isles, AstralIsles.png, true
+        Deep Winter, DeepWinter.png, true
+        Inaba, Inaba.png, true
+        Mousetaph'd, Mousetaphd.png, true
+        Demolitionist, Demolitionist.png, true
+        ROBLOX-U Scoundrel, ROBLOXUScoundrel.png, true
+        Sneaky-Sand-Schemer, SneakySandSchemer.png, true
+        Venus Fly-Taph, VenusFlyTaph.png, true
+        Toy, Toy.png, true
+        Tropical Trapper, TropicalTrapper.png, true
+        Y2K, Y2K.png, true
+        Darkage Ninja, DarkageNinja.png, true
+        Laughy Taphy, LaughyTaphy.png, true
+        The Dark Reaper, TheDarkReaper.png, true
+        Nevermoor, Nevermoor.png, true
+        Banana, Banana.png, true
+        Schmuck, Schmuck.png, true
+        Minesweeper, Minesweeper.png, true
+        Intelligence, Intelligence.png, true
+        Plash, Plash.png, true
+        ZeekytheHBomb, ZeekytheHBomb.png, true
+        Taph Cosplay, TaphCosplay.png, true
     `,
     "Dusekkar": `
         Milestone IV, MilestoneIV.png, true
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Anniversary, Anniversary.png, true
+        Catseye, Catseye.png, false
+        Voice Acted, VoiceActed.png, true
+        Jack, Jack.png, true
+        Toil and Trouble, ToilAndTrouble.png, true
+        Headless, Headless.png, true
+        Snowsekkar, Snowsekkar.png, true
+        Jolly Evergreen, JollyEvergreen.png, true
+        Medic, Medic.png, true
+        Ghosdeeri, Ghosdeeri.png, true
+        Doomsekkar, Doomsekkar.png, true
+        It Came From The Mansion, ItCameFromTheMansion.png, true
+        Pumpkin Spice, PumpkinSpice.png, true
+        FliesOfTheLord, FliesOfTheLord.png, true
+        PotSekkar, PotSekkar.png, true
+        Blizzaria, Blizzaria.png, true
+        Y2K, Y2K.png, true
+        Doothekkar, Doothekkar.png, true
+        Sacred Harvest, SacredHarvest.png, true
+        Toy, Toy.png, true
+        Craftsekkar, Craftsekkar.png, true
+        Team Beacon, TeamBeacon.png, true
+        Stone, Stone.png, true
+        Umdum, Umdum.png, true
+        ToaZuku, ToaZuku.png, true
+        Infernal Sorcerer, InfernalSorcerer.png, true
+        Butler, Butler.png, true
+        Beachsandar, Beachsandar.png, true
+        DuGuittar, DuGuittar.png, true
+        Oveerseer, Oveerseer.png, true
+        Sage Of The Manor, SageOfTheManor.png, true
+        Dress, Dress.png, true
+        Marisa, Marisa.png, true
+        Librarian, Librarian.png, true
+        Glow In The Dark, GlowInTheDark.png, true
+        Bloodchrome, Bloodchrome.png, true
+        Darkseed, Darkseed.png, true
+        Snow Witch, SnowWitch.png, true
+        Hollow Hotshot, HollowHotshot.png, true
+        Headrowmancer, Headrowmancer.png, true
+        Candy Maestro, CandyMaestro.png, true
+        Great Mage, GreatMage.png, true
+        2009, 2009.png, true
+        LOVESHOT!, LOVESHOT.png, true
+        Phantom, Phantom.png, true
+        Dumsekkah, Dumsekkah.png, true
+        Toothy Deer, ToothyDeer.png, true
+        Combat Wizard, CombatWizard.png, true
+        Plushekkar, Plushekkar.png, true
+        Dusekkar Cosplay, DusekkarCosplay.png, true
+        Golden, Golden.png, true
     `,
     "Veeronica": `
         Milestone IV, MilestoneIV.png, true
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        DJ, DJ.png, false
+        Web Surfer, WebSurfer.png, true
+        Trendhopper, Trendhopper.png, true
+        Voice Acted, VoiceActed.png, true
+        Man Face, ManFace.png, true
+        Skater, Skater.png, true
+        IPad, IPad.png, true
+        Musical, Musical.png, true
+        Stylish, Stylish.png, true
+        Boy, Boy.png, true
+        Flannel, Flannel.png, true
+        Kitty Pop, KittyPop.png, true
+        Bloxaide, Bloxaide.png, true
+        Corrupted, Corrupted.png, true
+        Solar, Solar.png, true
+        Emo, Emo.png, true
+        Tropical, Tropical.png, true
+        Angel, Angel.png, true
+        Bunny, Bunny.png, true
+        Veese, Veese.png, true
+        Wolfy, Wolfy.png, true
+        Alien, Alien.png, true
+        Mecha, Mecha.png, true
+        Hunted, Hunted.png, true
+        Trackstar, Trackstar.png, true
+        Lovebug, Lovebug.png, true
+        Nyan, Nyan.png, true
+        Drako, Drako.png, true
     `,
     "Chance": `
+        Fool, Fool.png, true
         Milestone IV, MilestoneIV.png, true
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Soldier's Gambit, SoldiersGambit.png, true
+        Loveshot, Loveshot.png, true
+        Crook Boss, CrookBoss.png, true
+        BrawlR Specialist, BrawlRSpecialist.png, true
+        Sniper, Sniper.png, true
+        BinaryBreacher, BinaryBreacher.png, true
+        Anniversary, Anniversary.png, true
+        Luckroll, Luckroll.png, true
+        Voice Acted, VoiceActed.png, true
+        Devil's Deeds, DevilsDeeds.png, true
+        Kris Kringle's Right Hand, KrisKringlesRightHand.png, true
+        Sophisticated Snowman, SophisticatedSnowman.png, true
+        Nutcracker, Nutcracker.png, true
+        Mirror, Mirror.png, true
+        MLGChance, MLGChance.png, true
+        Ultrakill, Ultrakill.png, true
+        King Of Pranks, KingOfPranks.png, true
+        Homeless, Homeless.png, true
+        Agent, Agent.png, true
+        Blue Day, BlueDay.png, true
+        Pink Day, PinkDay.png, true
+        Double Crossed, DoubleCrossed.png, true
+        Dawg, Dawg.png, true
+        Workclock, Workclock.png, true
+        LMaD, LMaD.png, true
+        Donald P. Sullivan, DonaldPSullivan.png, true
+        Fast Food, FastFood.png, true
+        Lods of Emone, LodsOfEmone.png, true
+        Pirate, Pirate.png, true
+        Mysterious Sheriff, MysteriousSheriff.png, true
+        Plaid Pet, PlaidPoet.png, true
+        Take A Chance, TakeAChance.png, true
+        Federation, Federation.png, true
+        Alien, Alien.png, true
+        Dog, Dog.png, true
+        Mr. Worldwide, MrWorldwide.png, true
+        Pride, Pride.png, true
+        Sinister Staker, SinisterStaker.png, true
+        Bartholomew P. Sullivan, BartholomewPSullivan.png, true
+        Bun-zee, Bunzee.png, true
+        Dos Vidas, DosVidas.png, true
+        High-Roller Classic, HighRollerClassic.png, true
+        Revolver, Revolver.png, true
+        Brainiac, Brainiac.png, true
+        Merchant, Merchant.png, true
+        Nayn, Nayn.png, true
+        Pilgrim, Pilgrim.png, true
+        Smiff, Smiff.png, true
+        Multi-Colored Bettor, MultiColoredBettor.png, true
+        Outlaw, Outlaw.png, true
+        Big Game Hunter, BigGameHunter.png, true
+        Cool Bones, CoolBones.png, true
+        Pico, Pico.png, true
+        Avian Sight, AvianSight.png, true
+        Plushy, Plushy.png, true
+        Chanceton, Chanceton.png, true
+        Flipnote, Flipnote.png, true
+        Retro, Retro.png, true
+        Really Rich Chance, ReallyRichChance.png, true
+        Chance Cosplay, ChanceCosplay.png, true
+        Golden, Golden.png, false
     `
 };
 
@@ -638,7 +884,7 @@ function RenderSkinCollection(DataText){
         const IsObtained = isObtainedStr === 'true';
         const item =
             `<section>
-                <img src="assets/renders/skins/${CharacterName}/${icon}" alt="${name}">
+                <img src="assets/renders/skins/${CharacterName}/${icon}" onerror="this.src='assets/renders/PlaceholderSkin.png';" alt="${name}">
                 <div>
                     <h3>${name}</h3>
                 </div>

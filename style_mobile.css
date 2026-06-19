@@ -107,26 +107,36 @@ footer p{
     text-align: left;
 }
 #gamepasses{
-    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr; 
+    box-sizing: border-box;
     background-color: black;
+    width: 100%;
+    max-width: none;
+    min-width: 270px;
 }
 #gamepasses section{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 10px;
+    margin: 5px 0 10px 10px;
+    width: 100%;
 }
 #gamepasses section img{
-    height: 150px;
-    width: auto;
+    height: 100px;
+    width: 100px;
     transition: transform 0.3s ease;
 }
 #gamepasses section img:hover{
     transform: scale(1.05); 
 }
 #gamepasses section div{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+#gamepasses section div h4{
+    text-align: left;
+    width: 100%;
 }
 #KilBut{
     background-color: rgb(206, 206, 206);
@@ -134,45 +144,39 @@ footer p{
 }
 #killers{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-#killers section{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-}
-#killers section img{
-    height: 250px;
-    width: auto;
-    transition: transform 0.3s ease;
-}
-#killers section img:hover{
-    transform: scale(1.1); 
-}
-#killers section div{
-    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+    box-sizing: border-box;
 }
 #survivors{
     display: none;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+    box-sizing: border-box;
 }
-#survivors section{
-    margin-top: 10px;
+#killers section, #survivors section{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
+    margin: 10px 0 15px 15px;
 }
-#survivors section img{
-    height: 250px;
-    width: auto;
+#killers section img, #survivors section img{
+    width: 200px;
+    height: 200px;
     transition: transform 0.3s ease;
 }
-#survivors section img:hover{
-    transform: scale(1.1); 
+#killers section img:hover, #survivors section img:hover{
+    transform: scale(1.075); 
 }
-#survivors section div{
-    display: block;
+#killers section div, #survivors section div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 20px;
+}
+#killers section div h3, #survivors section div h3{
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+#killers section div button, #survivors section div button{
+    margin-left: auto;
+    min-width: 100px;
 }

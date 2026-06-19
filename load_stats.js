@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Only got badge from joining friend)
 Started playing Forsaken - 27.09.2025
-Time Played: 35 days, 5 hours, 1 minutes and 36 seconds
+Time Played: 35 days, 14 hours, 56 minutes and 36 seconds
 
-Survivor Wins: 4017
-Survivor Losses: 3397
-Objectives Completed As Survivor: 10729
+Survivor Wins: 4065
+Survivor Losses: 3430
+Objectives Completed As Survivor: 10806
 
-Killer Wins: 1878
-Killer Losses: 570
-Total Kills: 11944
+Killer Wins: 1894
+Killer Losses: 574
+Total Kills: 12044
 
-Player Points ($): 3419$
-Net Worth: 979284$
+Player Points ($): 13506$
+Net Worth: 989371$
 R$ Spent: 0 R$
 `;
 
@@ -27,13 +27,13 @@ Emote Pack #1, EmotePack1.png
 
 //KILLERS
 const KillerFile = `
-Slasher, Slasher.png, 264
-C00lkidd, C00lkidd.png, 215
-John Doe, JohnDoe.png, 281
+Slasher, Slasher.png, 266
+C00lkidd, C00lkidd.png, 217
+John Doe, JohnDoe.png, 282
 Noli, Noli.png, 147
-1x1x1x1, 1x1x1x1.png, 226
+1x1x1x1, 1x1x1x1.png, 227
 Guest 666, Guest666.png, 156
-Nosferatu, Nosferatu.png, 168
+Nosferatu, Nosferatu.png, 171
 Azure, Azure.png, 0
 `;
 
@@ -43,12 +43,12 @@ Shedletsky, Shedletsky.png, 154
 Elliot, Elliot.png, 138
 Noob, Noob.png, 203
 Jane Doe, JaneDoe.png, 101
-Builderman, Builderman.png, 102
+Builderman, Builderman.png, 103
 007n7, 007n7.png, 104
-Two Time, TwoTime.png, 357
-Guest 1337, Guest1337.png, 127
-Taph, Taph.png, 203
-Dusekkar, Dusekkar.png, 111
+Two Time, TwoTime.png, 359
+Guest 1337, Guest1337.png, 128
+Taph, Taph.png, 205
+Dusekkar, Dusekkar.png, 116
 Veeronica, Veeronica.png, 201
 Chance, Chance.png, 102
 `;
@@ -85,7 +85,7 @@ function Levels(TargetElement, DataText, FolderName) {
         const [name, render, level] = line.split(',').map(item => item.trim());
         HtmlOutput +=
             `<section>
-                <img src="assets/renders/${FolderName}/${render}" alt="${name}">
+                <img src="assets/renders/${FolderName}/${render}" onerror="this.src='assets/renders/PlaceholderCharacter.png';" alt="${name}">
                 <div>
                     <h3>${name}</h3>
                     <h3>Level: ${level}</h3>
