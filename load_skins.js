@@ -130,7 +130,7 @@ const SkinFile = {
         Digital Rider, DigitalRider.png, true
         1Eggs, 1Eggs.png, true
         Pincushion, Pincushion.png, true
-        [CLASSIC] Jack Frost, ClassicJackFrost.png, false
+        [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
         Jack Frost, JackFrost.png, true
         One Scoop, OneScoop.png, true
         Hacklord, Hacklord.png, true
