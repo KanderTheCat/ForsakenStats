@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Only got badge from joining friend)
 Started playing Forsaken - 27.09.2025
-Time Played: 35 days, 14 hours, 56 minutes and 36 seconds
+Time Played: 35 days, 22 hours, 45 minutes and 15 seconds
 
-Survivor Wins: 4065
-Survivor Losses: 3430
-Objectives Completed As Survivor: 10806
+Survivor Wins: 4105
+Survivor Losses: 3457
+Objectives Completed As Survivor: 10913
 
-Killer Wins: 1894
-Killer Losses: 574
-Total Kills: 12044
+Killer Wins: 1915
+Killer Losses: 577
+Total Kills: 12170
 
-Player Points ($): 13506$
-Net Worth: 989371$
+Player Points ($): 24297$
+Net Worth: 1000162$
 R$ Spent: 0 R$
 `;
 
@@ -27,26 +27,26 @@ Emote Pack #1, EmotePack1.png
 
 //KILLERS
 const KillerFile = `
-Slasher, Slasher.png, 266
-C00lkidd, C00lkidd.png, 217
+Slasher, Slasher.png, 267
+C00lkidd, C00lkidd.png, 219
 John Doe, JohnDoe.png, 282
-Noli, Noli.png, 147
+Noli, Noli.png, 150
 1x1x1x1, 1x1x1x1.png, 227
-Guest 666, Guest666.png, 156
+Guest 666, Guest666.png, 159
 Nosferatu, Nosferatu.png, 171
 Azure, Azure.png, 0
 `;
 
 //SURVIVORS
 const SurvivorFile = `
-Shedletsky, Shedletsky.png, 154
+Shedletsky, Shedletsky.png, 156
 Elliot, Elliot.png, 138
 Noob, Noob.png, 203
-Jane Doe, JaneDoe.png, 101
-Builderman, Builderman.png, 103
+Jane Doe, JaneDoe.png, 108
+Builderman, Builderman.png, 109
 007n7, 007n7.png, 104
 Two Time, TwoTime.png, 359
-Guest 1337, Guest1337.png, 128
+Guest 1337, Guest1337.png, 129
 Taph, Taph.png, 205
 Dusekkar, Dusekkar.png, 116
 Veeronica, Veeronica.png, 201
