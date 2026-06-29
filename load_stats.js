@@ -1,6 +1,6 @@
 //STATS
 const StatsFile = `
-Joined Forsaken - 02.07.2025 (Only got badge from joining friend)
+Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
 Time Played: 36 days, 3 hours, 40 minutes and 5 seconds
 
