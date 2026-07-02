@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 36 days, 3 hours, 40 minutes and 5 seconds
+Time Played: 36 days, 12 hours, 34 minutes and 26 seconds
 
-Survivor Wins: 4134
-Survivor Losses: 3471
-Objectives Completed As Survivor: 10965
+Survivor Wins: 4181
+Survivor Losses: 3496
+Objectives Completed As Survivor: 11089
 
-Killer Wins: 1926
-Killer Losses: 579
-Total Kills: 12237
+Killer Wins: 1950
+Killer Losses: 582
+Total Kills: 12378
 
-Player Points ($): 30197$
-Net Worth: 1006062$
+Player Points ($): 42225$
+Net Worth: 1018090$
 R$ Spent: 0 R$
 `;
 
@@ -27,30 +27,30 @@ Emote Pack #1, EmotePack1.png
 
 //KILLERS
 const KillerFile = `
-Slasher, Slasher.png, 268
+Slasher, Slasher.png, 270
 C00lkidd, C00lkidd.png, 220
-John Doe, JohnDoe.png, 282
+John Doe, JohnDoe.png, 284
 Noli, Noli.png, 150
-1x1x1x1, 1x1x1x1.png, 227
+1x1x1x1, 1x1x1x1.png, 230
 Guest 666, Guest666.png, 160
-Nosferatu, Nosferatu.png, 172
+Nosferatu, Nosferatu.png, 174
 Azure, Azure.png, 1
 `;
 
 //SURVIVORS
 const SurvivorFile = `
 Shedletsky, Shedletsky.png, 160
-Elliot, Elliot.png, 139
+Elliot, Elliot.png, 140
 Noob, Noob.png, 203
 Jane Doe, JaneDoe.png, 110
 Builderman, Builderman.png, 110
 007n7, 007n7.png, 104
-Two Time, TwoTime.png, 359
+Two Time, TwoTime.png, 360
 Guest 1337, Guest1337.png, 130
-Taph, Taph.png, 205
-Dusekkar, Dusekkar.png, 116
+Taph, Taph.png, 210
+Dusekkar, Dusekkar.png, 120
 Veeronica, Veeronica.png, 201
-Chance, Chance.png, 102
+Chance, Chance.png, 107
 `;
 
 function Stats(TargetElement, DataText) {
