@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 36 days, 12 hours, 34 minutes and 26 seconds
+Time Played: 36 days, 16 hours, 17 minutes and 58 seconds
 
-Survivor Wins: 4181
-Survivor Losses: 3496
-Objectives Completed As Survivor: 11089
+Survivor Wins: 4201
+Survivor Losses: 3507
+Objectives Completed As Survivor: 11165
 
-Killer Wins: 1950
+Killer Wins: 1963
 Killer Losses: 582
-Total Kills: 12378
+Total Kills: 12442
 
-Player Points ($): 42225$
-Net Worth: 1018090$
+Player Points ($): 39880$
+Net Worth: 1023600$
 R$ Spent: 0 R$
 `;
 
@@ -33,7 +33,7 @@ John Doe, JohnDoe.png, 284
 Noli, Noli.png, 150
 1x1x1x1, 1x1x1x1.png, 230
 Guest 666, Guest666.png, 160
-Nosferatu, Nosferatu.png, 174
+Nosferatu, Nosferatu.png, 179
 Azure, Azure.png, 1
 `;
 
@@ -41,16 +41,16 @@ Azure, Azure.png, 1
 const SurvivorFile = `
 Shedletsky, Shedletsky.png, 160
 Elliot, Elliot.png, 140
-Noob, Noob.png, 203
+Noob, Noob.png, 204
 Jane Doe, JaneDoe.png, 110
 Builderman, Builderman.png, 110
-007n7, 007n7.png, 104
+007n7, 007n7.png, 110
 Two Time, TwoTime.png, 360
 Guest 1337, Guest1337.png, 130
 Taph, Taph.png, 210
 Dusekkar, Dusekkar.png, 120
 Veeronica, Veeronica.png, 201
-Chance, Chance.png, 107
+Chance, Chance.png, 110
 `;
 
 function Stats(TargetElement, DataText) {
