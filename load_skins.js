@@ -10,6 +10,7 @@ const SkinFile = {
         Mystic, Mystic.png, true
         Ripper, Ripper.png, true
         Insane Streamer, InsaneStreamer.png, true
+        Uncle Sam, UncleSam.png, true
         The Shining, TheShining.png, true
         Horsemann, Horsemann.png, true
         The Shape, TheShape.png, true
@@ -228,6 +229,7 @@ const SkinFile = {
         Bloxy, Bloxy.png, false
         Anniversary, Anniversary.png, true
         Voice Acted, VoiceActed.png, true
+        Independence Chicken, IndependenceChicken.png, true
         Zombieletsky, Zombieletsky.png, true
         Angel of Death, AngelOfDeath.png, true
         Holiday Hen, HolidayHen.png, true
@@ -293,6 +295,7 @@ const SkinFile = {
         Monster, Monster.png, true
         Medic, Medic.png, true
         Voice Acted, VoiceActed.png, true
+        Firework Fanatic, FireworkFanatic.png, true
         Mercurial, Mercurial.png, true
         Vampire, Vampire.png, true
         Brainz Dizpatch, BrainzDizpatch.png, true
@@ -364,6 +367,7 @@ const SkinFile = {
         Anniversary, Anniversary.png, true
         Voice Acted, VoiceActed.png, true
         Easter, Easter.png, true
+        American Sweetheart, AmericanSweetheart.png, true
         Scarecrow, Scarecrow.png, true
         Low-Effort Phantom, LowEffortPhantom.png, true
         Tangled Lights, TangledLights.png, true
@@ -499,6 +503,7 @@ const SkinFile = {
         Clean Gent, CleanGent.png, false
         Yolker, Yolker.png, true
         Voice Acted, VoiceActed.png, true
+        Pariot Locator, PariotLocator.png, trie
         Count Duble'O VII, CountDubleOVII.png, true
         Red-Nosed Reindeer, RedNosedReindeer.png, true
         Reindeer, Reindeer.png, true
@@ -608,6 +613,7 @@ const SkinFile = {
         Deathbringer, Deathbringer.png, true
         Voice Acted, VoiceActed.png, true
         Movies, Movies.png, true
+        American Commando, AmericanCommando.png, true
         Guest Who Cried Wolf, GuestWhoCriedWolf.png, true
         Christmas Camo, ChristmasCamo.png, true
         Gingerbread, Gingerbread.png, true
@@ -712,6 +718,7 @@ const SkinFile = {
         Anniversary, Anniversary.png, true
         Catseye, Catseye.png, false
         Voice Acted, VoiceActed.png, true
+        Uncle Zom, UncleZom.png, true
         Jack, Jack.png, true
         Toil and Trouble, ToilAndTrouble.png, true
         Headless, Headless.png, true
@@ -810,6 +817,7 @@ const SkinFile = {
         Anniversary, Anniversary.png, true
         Luckroll, Luckroll.png, true
         Voice Acted, VoiceActed.png, true
+        American Cowboy, AmericanCowboy.png, true
         Devil's Deeds, DevilsDeeds.png, true
         Kris Kringle's Right Hand, KrisKringlesRightHand.png, true
         Sophisticated Snowman, SophisticatedSnowman.png, true
