@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 36 days, 16 hours, 17 minutes and 58 seconds
+Time Played: 37 days, 2 hours, 15 minutes and 1 seconds
 
-Survivor Wins: 4201
-Survivor Losses: 3507
-Objectives Completed As Survivor: 11165
+Survivor Wins: 4253
+Survivor Losses: 3537
+Objectives Completed As Survivor: 11358
 
-Killer Wins: 1963
-Killer Losses: 582
+Killer Wins: 1987
+Killer Losses: 584
 Total Kills: 12442
 
-Player Points ($): 39880$
-Net Worth: 1023600$
+Player Points ($): 52837$
+Net Worth: 1036557$
 R$ Spent: 0 R$
 `;
 
@@ -29,11 +29,11 @@ Emote Pack #1, EmotePack1.png
 const KillerFile = `
 Slasher, Slasher.png, 270
 C00lkidd, C00lkidd.png, 220
-John Doe, JohnDoe.png, 284
+John Doe, JohnDoe.png, 290
 Noli, Noli.png, 150
 1x1x1x1, 1x1x1x1.png, 230
 Guest 666, Guest666.png, 160
-Nosferatu, Nosferatu.png, 179
+Nosferatu, Nosferatu.png, 180
 Azure, Azure.png, 1
 `;
 
@@ -41,7 +41,7 @@ Azure, Azure.png, 1
 const SurvivorFile = `
 Shedletsky, Shedletsky.png, 160
 Elliot, Elliot.png, 140
-Noob, Noob.png, 204
+Noob, Noob.png, 210
 Jane Doe, JaneDoe.png, 110
 Builderman, Builderman.png, 110
 007n7, 007n7.png, 110
@@ -49,7 +49,7 @@ Two Time, TwoTime.png, 360
 Guest 1337, Guest1337.png, 130
 Taph, Taph.png, 210
 Dusekkar, Dusekkar.png, 120
-Veeronica, Veeronica.png, 201
+Veeronica, Veeronica.png, 210
 Chance, Chance.png, 110
 `;
 
