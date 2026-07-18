@@ -71,7 +71,7 @@ function Gamepasses(TargetElement, DataText) {
         const [name, icon, level] = line.split(',').map(item => item.trim());
         HtmlOutput +=
             `<section>
-                <img src="assets/gamepasses/${icon}" alt="${name}">
+                <img src="assets/gamepasses/${icon}" alt="${name}" loading="lazy">
                 <div>
                     <h4>${name}</h4>
                 </div>
@@ -87,7 +87,7 @@ function Levels(TargetElement, DataText, FolderName) {
         const [name, render, level] = line.split(',').map(item => item.trim());
         HtmlOutput +=
             `<section>
-                <img src="assets/renders/${FolderName}/${render}" onerror="this.src='assets/renders/PlaceholderCharacter.png';" alt="${name}">
+                <img src="assets/renders/${FolderName}/${render}" onerror="this.src='assets/renders/PlaceholderCharacter.png';" alt="${name}" loading="lazy">
                 <div>
                     <h3>${name}</h3>
                     <h3>Level: ${level}</h3>
