@@ -45,35 +45,34 @@ const SkinFile = {
         Yourself, Yourself.png, true
     `,
     "C00lkidd": `
-        Milestone IV, MilestoneIV.png, true
-        Milestone III, MilestoneIII.png, true
-        Milestone II, MilestoneII.png, true
-        Milestone I, MilestoneI.png, true
+        Milestone IV, MilestoneIVNEWRENDER.png, true
+        Milestone III, MilestoneIIINEWRENDER.png, true
+        Milestone II, MilestoneIINEWRENDER.png, true
+        Milestone I, MilestoneINEWRENDER.png, true
         c0llabk1dd, c0llabk1dd.png, true
-        Gourd, Gourd.png, true
+        Gourd, GourdNEWRENDER.png, true
         c00kiekidd, c00kiekidd.png, true
-        Whimsical, Whimsical.png, true
-        b4ll3rkidd, b4ll3rkidd.png, true
-        Cultist, Cultist.png, true
-        p00lkidd, p00lkidd.png, true
-        Original, Original.png, true
-        sch00lkidd, sch00lkidd.png, true
-        Dapper, Dapper.png, true
-        C00l3r, C00l3r.png, true
-        P4j4m4k1dd, P4j4m4k1dd.png, true
-        Weirdly Strict, WeirdlyStrict.png, true
+        C00l3r, C00l3rNEWRENDER.png, true
+        b4ll3rkidd, b4llerkiddNEWRENDER.png, true
         Cosplayer, Cosplayer.png, true
         K00lkidd, K00lkidd.png, true
-        bluudud, bluudud.png, true
-        Cupcakes, Cupcakes.png, true
+        P4j4m4k1dd, P4j4m4k1dd.png, true
+        p00lkidd, p00lkiddNEWRENDER.png, true
+        Original, OriginalNEWRENDER.png, true
+        Weirdly Strict, WeirdlyStrictNEWRENDER.png, true
         N1GH7M4R33, N1GH7M4R33.png, true
-        pr3typriincess, pr3typriincess.png, true
-        Color and Electricity, ColorAndElectricity.png, true
-        Masked Kid, MaskedKid.png, true
-        Savior, Savior.png, true
+        wh1m1c4l, wh1ms1c4l.png, true
+        Pr3typriincess, Pr3typriincessNEWRENDER.png, true
+        Cultist, CultistNEWRENDER.png, true
+        sch00lkidd. sch00lkidd.png, true
         DIVADAYO, DIVADAYO.png, true
+        The C00l One, TheC00lOne.png, true
+        THE K1DD, THEK1DD.png, true
+        FF9CAE, FF9CAE.png, true
+        bluudud, bluudud.png, true
         Celebration, Celebration.png, true
-        Mafioso, Mafioso.png, true
+        c00lskeleton95, c00lskeleton95.png, true
+        P4rtyPwny, P4rtyPwny.png, true
         Yourself, Yourself.png, true
     `,
     "John Doe": `
@@ -98,10 +97,12 @@ const SkinFile = {
         Overgrown, Overgrown.png, true
         Script Builder, ScriptBuilder.png, true
         All-Star, AllStar.png, true
-        Toon, Toon.png, true
+        John Dog, JohnDog.png, true
         RetRoe, RetRoe.png, true
+        John Flow, JohnFlow.png, true
         Plagued, Plagued.png, true
         Sharkmelon, Sharkmelon.png, true
+        Toon, Toon.png, true
         TV, TV.png, true
         Ancient Megalodon, AncientMegalodon.png, true
         Demon King, DemonKing.png, true
@@ -181,11 +182,15 @@ const SkinFile = {
         Saggital, Saggital.png, true
         Messiah, Messiah.png, true
         Red Room Curse, RedRoomCurse.png, true
+        Exilium, Exilium.png, true
         Chimera, Chimera.png, true
+        Starry Night, StarryNight.png, true
         Meta, Meta.png, true
         Umbra, Umbra.png, true
+        Trolli, Trolli.png, true
         YAAI, YAAI.png, true
         The Possessed, ThePossessed.png, true
+        Vira, Vira.png, true
         Artful, Artful.png, true
         Yourself, Yourself.png, true
     `,
@@ -197,15 +202,18 @@ const SkinFile = {
         Confused, Confused.png, true
         Krampus, Krampus.png, true
         Guest 333, Guest333.png, true
+        EVIL DUCK, EVILDUCK.png, true
         Guest 999, Guest999.png, true
         Template, Template.png, true
         Jack-O-Lantern, JackOLantern.png, true
+        Memories, Memories.png, true
         Toon, Toon.png, true
         Godmother, Godmother.png, true
         Symbol, Symbol.png, true
         Hungry, Hungry.png, true
         Sakura, Sakura.png, true
         Rave, Rave.png, true
+        The Dweller, TheDweller.png, true
         Infected, Infected.png, true
         Apollyon, Apollyon.png, true
         Photoshop, Photoshop.png, true
@@ -213,9 +221,40 @@ const SkinFile = {
     "Nosferatu": `
         Gluttony, Gluttony.png, true
         Snowy Owl, SnowyOwl.png, true
+        Vecnas, Vecnas.png, true
+        Mowl, Mowl.png, true
         Werewolf, Werewolf.png, true
         Classic, Classic.png, true
         Arachnid, Arachnid.png, true
+        Heritage, Heritage.png, true
+    `,
+    "Azure": `
+        Milestone IV, MilestoneIV.png, false
+        Milestone III, MilestoneIII.png, false
+        Milestone II, MilestoneII.png, false
+        Milestone I, MilestoneI.png, false
+        Toxic Wasteland, ToxicWasteland.png, true
+        Red String Theory, RedStringTheory.png, true
+        Jester, Jester.png, true
+        Lunar Wizard, LunarWizard.png, true
+        Apophis, Apophis.png, true
+        Metarmorphosis, Metarmorphosis.png, true
+        Flytrap, Flytrap.png, true
+        Broken Heart, BrokenHeart.png, true
+        Wonderland, Wonderland.png, true
+        Sugar Mage, SugarMage.png, true
+        Timekeeper, Timekeeper.png, true
+        Cowboy, Cowboy.png, true
+        Squizure, Squizure.png, true
+        Sorrow Knight, SorrowKnight.png, true
+        Nightfall, Nightfall.png, true
+        Nevermoor, Nevermoor.png, true
+        Void, Void.png, true
+        Bride, Bride.png, true
+        Traffic, Traffic.png, true
+        FunnyBrushez, FunnyBrushez.png, true
+        First Born, FirstBorn.png, true
+        Deceiver, Deceiver.png, true
     `,
     "Shedletsky": `
         Milestone IV, MilestoneIV.png, true
@@ -302,6 +341,7 @@ const SkinFile = {
         Gingerbrea-delivery, Gingerbreadelivery.png, true
         Single-Handed Elf, SingleHandedElf.png, true
         Rudolph, Rudolph.png, true
+        Zombie Cat, ZombieCat.png, true
         Lulu, Lulu.png, true
         Milkman, Milkman.png, true
         Supplier, Supplier.png, true
@@ -350,6 +390,7 @@ const SkinFile = {
         Dog, Dog.png, true
         Monstar Merchant, MonstarMerchant.png, true
         Friend, Friend.png, true
+        Fish Dealer, FishDealer.png, true
         Gummy, Gummy.png, true
         Elliot Cosplay, ElliotCosplay.png, true
     `,
@@ -432,6 +473,7 @@ const SkinFile = {
         Elegant, Elegant.png, true
         Office, Office.png, true
         Musicist, Musicist.png, true
+        Doe, Doe.png, true
         Noir, Noir.png, true
         Divine Flame, DivineFlame.png, true
         Musketeer, Musketeer.png, true
@@ -530,7 +572,7 @@ const SkinFile = {
         Subject_3, Subject3.png, true
         World Investigator, WorldInvestigator.png, true
         Decoy, Decoy.png, true
-        Spy, Spy.png, true
+        224o4, 224o4.png, true
         Sm4rt3st0uppy, Sm4rt3st0uppy.png, true
         Dummy, Dummy.png, true
         Alien, Alien.png, true
@@ -557,6 +599,7 @@ const SkinFile = {
         Legacy Milestone II, LegacyMilestoneII.png, false
         Legacy Milestone I, LegacyMilestoneI.png, false
         Stealth Virtuoso, StealthVirtuoso.png, true
+        Frigid Planes, FrigidPlanes.png, true
         Ghost, Ghost.png, false
         Voice Acted, VoiceActed.png, true
         Spring, Spring.png, true
@@ -583,6 +626,7 @@ const SkinFile = {
         Honestly, Honestly.png, true
         Jester, Jester.png, true
         Monitoring, Monitoring.png, true
+        Assassin, Assassin.png, true
         Blossom, Blossom.png, true
         Boss, Boss.png, true
         Pride, Pride.png, true
@@ -591,11 +635,13 @@ const SkinFile = {
         Ghost Detective, GhostDetective.png, true
         Snake, Snake.png, true
         Autumn, Autumn.png, true
-        Cloak, Cloak.png, true
-        Tazuna, Tazuna.png, true
-        Weeping, Weeping.png, true
         Yorick, Yorick.png, true
+        Weeping, Weeping.png, true
+        Tazuna, Tazuna.png, true
+        Cloak, Cloak.png, true
+        Plush, Plush.png, true
         Ghoul, Ghoul.png, true
+        Invicta, Invicta.png, true
     `,
     "Guest 1337": `
         Milestone IV, MilestoneIV.png, true
@@ -656,6 +702,7 @@ const SkinFile = {
         Clobberbones, Clobberbones.png, true
         Block, Block.png, true
         Swashbuckler, Swashbuckler.png, true
+        Toon, Toon.png, true
         Guard, Guard.png, true
         Bobby, Bobby.png, true
         Gene, Gene.png, true
@@ -782,6 +829,7 @@ const SkinFile = {
         IPad, IPad.png, true
         Musical, Musical.png, true
         Stylish, Stylish.png, true
+        Vintage, Vintage.png, true
         Boy, Boy.png, true
         Flannel, Flannel.png, true
         Kitty Pop, KittyPop.png, true
@@ -794,6 +842,7 @@ const SkinFile = {
         Bunny, Bunny.png, true
         Veese, Veese.png, true
         Wolfy, Wolfy.png, true
+        Radical, Radical.png, true
         Alien, Alien.png, true
         Mecha, Mecha.png, true
         Hunted, Hunted.png, true
@@ -801,6 +850,8 @@ const SkinFile = {
         Lovebug, Lovebug.png, true
         Nyan, Nyan.png, true
         Drako, Drako.png, true
+        Moe, Moe.png, true
+        Overheat, Overheat.png, true
     `,
     "Chance": `
         Fool, Fool.png, true
@@ -809,6 +860,7 @@ const SkinFile = {
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
         Soldier's Gambit, SoldiersGambit.png, true
+        Mrs. Big Buckz, MrsBigBuckz.png, true
         Loveshot, Loveshot.png, true
         Crook Boss, CrookBoss.png, true
         BrawlR Specialist, BrawlRSpecialist.png, true
@@ -860,6 +912,7 @@ const SkinFile = {
         Multi-Colored Bettor, MultiColoredBettor.png, true
         Outlaw, Outlaw.png, true
         Big Game Hunter, BigGameHunter.png, true
+        Loveshot, Loveshot.png, true
         Cool Bones, CoolBones.png, true
         Pico, Pico.png, true
         Avian Sight, AvianSight.png, true
