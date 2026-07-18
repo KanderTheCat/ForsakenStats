@@ -945,7 +945,7 @@ function RenderSkinCollection(DataText){
         const IsObtained = isObtainedStr === 'true';
         const item =
             `<section>
-                <img src="assets/renders/skins/${CharacterName}/${icon}" onerror="this.src='assets/renders/PlaceholderSkin.png';" alt="${name}">
+                <img src="assets/renders/skins/${CharacterName}/${icon}" onerror="this.src='assets/renders/PlaceholderSkin.png';" alt="${name}" loading="lazy">
                 <div>
                     <h3>${name}</h3>
                 </div>
