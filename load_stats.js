@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 37 days, 10 hours, 17 minutes and 50 seconds
+Time Played: 40 days, 0 hours, 11 minutes and 1 seconds
 
-Survivor Wins: 4301
-Survivor Losses: 3561
-Objectives Completed As Survivor: 11436
+Survivor Wins: 4587
+Survivor Losses: 3792
+Objectives Completed As Survivor: 12096
 
-Killer Wins: 2003
-Killer Losses: 589
-Total Kills: 12667
+Killer Wins: 2136
+Killer Losses: 614
+Total Kills: 13457
 
-Player Points ($): 5837$
-Net Worth: 1047514$
+Player Points ($): 70200$
+Net Worth: 1111877$
 R$ Spent: 898 R$
 `;
 
@@ -29,30 +29,32 @@ Emote Pack #2, EmotePack2.png
 
 //KILLERS
 const KillerFile = `
-C00lkidd, C00lkidd.png, 220
-Slasher, Slasher.png, 270
-John Doe, JohnDoe.png, 290
-Noli, Noli.png, 151
-1x1x1x1, 1x1x1x1.png, 230
-Guest 666, Guest666.png, 160
-Nosferatu, Nosferatu.png, 183
-Azure, Azure.png, 24
+C00lkidd, C00lkidd.png, 223
+Slasher, Slasher.png, 271
+John Doe, JohnDoe.png, 292
+Noli, Noli.png, 153
+1x1x1x1, 1x1x1x1.png, 232
+Guest 666, Guest666.png, 163
+Nosferatu, Nosferatu.png, 198
+Azure, Azure.png, 100
+Stalker, stalker_joke.png, 0
 `;
 
 //SURVIVORS
 const SurvivorFile = `
 Shedletsky, Shedletsky.png, 160
-Noob, Noob.png, 210
 Elliot, Elliot.png, 140
+Noob, Noob.png, 216
 Jane Doe, JaneDoe.png, 110
-Builderman, Builderman.png, 110
-007n7, 007n7.png, 111
-Two Time, TwoTime.png, 366
+Builderman, Builderman.png, 112
+007n7, 007n7.png, 112
+Two Time, TwoTime.png, 393
 Guest 1337, Guest1337.png, 130
-Taph, Taph.png, 210
+Taph, Taph.png, 213
 Dusekkar, Dusekkar.png, 120
 Veeronica, Veeronica.png, 210
-Chance, Chance.png, 110
+Chance, Chance.png, 111
+Ringmaster, ringmaster_joke.gif, 0
 `;
 
 function Stats(TargetElement, DataText) {
@@ -71,7 +73,7 @@ function Gamepasses(TargetElement, DataText) {
         const [name, icon, level] = line.split(',').map(item => item.trim());
         HtmlOutput +=
             `<section>
-                <img src="assets/gamepasses/${icon}" alt="${name}" loading="lazy">
+                <img src="assets/gamepasses/${icon}" alt="${name}">
                 <div>
                     <h4>${name}</h4>
                 </div>
@@ -87,7 +89,7 @@ function Levels(TargetElement, DataText, FolderName) {
         const [name, render, level] = line.split(',').map(item => item.trim());
         HtmlOutput +=
             `<section>
-                <img src="assets/renders/${FolderName}/${render}" onerror="this.src='assets/renders/PlaceholderCharacter.png';" alt="${name}" loading="lazy">
+                <img src="assets/renders/${FolderName}/${render}" onerror="this.src='assets/renders/PlaceholderCharacter.png';" alt="${name}">
                 <div>
                     <h3>${name}</h3>
                     <h3>Level: ${level}</h3>

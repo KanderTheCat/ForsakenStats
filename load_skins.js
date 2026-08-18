@@ -8,9 +8,9 @@ const SkinFile = {
         VIP, VIP.png, true
         Slaughter at Arms, SlaughterAtArms.png, true
         Mystic, Mystic.png, true
-        Ripper, Ripper.png, true
+        The Easter Marauder, TheEasterMarauder.png, true
         Insane Streamer, InsaneStreamer.png, true
-        Uncle Sam, UncleSam.png, true
+        Builder Sam, BuilderSam.png, true
         The Shining, TheShining.png, true
         Horsemann, Horsemann.png, true
         The Shape, TheShape.png, true
@@ -45,26 +45,26 @@ const SkinFile = {
         Yourself, Yourself.png, true
     `,
     "C00lkidd": `
-        Milestone IV, MilestoneIVNEWRENDER.png, true
-        Milestone III, MilestoneIIINEWRENDER.png, true
-        Milestone II, MilestoneIINEWRENDER.png, true
-        Milestone I, MilestoneINEWRENDER.png, true
+        Milestone IV, MilestoneIV.png, true
+        Milestone III, MilestoneIII.png, true
+        Milestone II, MilestoneII.png, true
+        Milestone I, MilestoneI.png, true
         c0llabk1dd, c0llabk1dd.png, true
-        Gourd, GourdNEWRENDER.png, true
+        Gourd, Gourd.png, true
         c00kiekidd, c00kiekidd.png, true
-        C00l3r, C00l3rNEWRENDER.png, true
-        b4ll3rkidd, b4llerkiddNEWRENDER.png, true
+        C00l3r, C00l3r.png, true
+        b4ll3rkidd, b4ll3rkidd.png, true
         Cosplayer, Cosplayer.png, true
         K00lkidd, K00lkidd.png, true
         P4j4m4k1dd, P4j4m4k1dd.png, true
-        p00lkidd, p00lkiddNEWRENDER.png, true
-        Original, OriginalNEWRENDER.png, true
-        Weirdly Strict, WeirdlyStrictNEWRENDER.png, true
+        p00lkidd, p00lkidd.png, true
+        Original, Original.png, true
+        Weirdly Strict, WeirdlyStrict.png, true
         N1GH7M4R33, N1GH7M4R33.png, true
-        wh1m1c4l, wh1ms1c4l.png, true
-        Pr3typriincess, Pr3typriincessNEWRENDER.png, true
-        Cultist, CultistNEWRENDER.png, true
-        sch00lkidd. sch00lkidd.png, true
+        wh1ms1c4l, wh1ms1c4l.png, true
+        pr3typriincess, pr3typriincess.png, true
+        Cultist, Cultist.png, true
+        sch00lkidd, sch00lkidd.png, true
         DIVADAYO, DIVADAYO.png, true
         The C00l One, TheC00lOne.png, true
         THE K1DD, THEK1DD.png, true
@@ -229,16 +229,16 @@ const SkinFile = {
         Heritage, Heritage.png, true
     `,
     "Azure": `
-        Milestone IV, MilestoneIV.png, false
-        Milestone III, MilestoneIII.png, false
-        Milestone II, MilestoneII.png, false
-        Milestone I, MilestoneI.png, false
+        Milestone IV, MilestoneIV.png, true
+        Milestone III, MilestoneIII.png, true
+        Milestone II, MilestoneII.png, true
+        Milestone I, MilestoneI.png, true
         Toxic Wasteland, ToxicWasteland.png, true
         Red String Theory, RedStringTheory.png, true
         Jester, Jester.png, true
         Lunar Wizard, LunarWizard.png, true
         Apophis, Apophis.png, true
-        Metarmorphosis, Metarmorphosis.png, true
+        Metamorphosis, Metamorphosis.png, true
         Flytrap, Flytrap.png, true
         Broken Heart, BrokenHeart.png, true
         Wonderland, Wonderland.png, true
@@ -255,6 +255,9 @@ const SkinFile = {
         FunnyBrushez, FunnyBrushez.png, true
         First Born, FirstBorn.png, true
         Deceiver, Deceiver.png, true
+    `,
+    "Stalker": `
+        a chubby bum, no.png, false
     `,
     "Shedletsky": `
         Milestone IV, MilestoneIV.png, true
@@ -304,7 +307,6 @@ const SkinFile = {
         Sunderland, Sunderland.png, true
         Y2K, Y2K.png, true
         Rockin', Rockin.png, true
-        Crafter, Crafter.png, true
         Fischer, Fischer.png, true
         luisgamercool23, luisgamercool23.png, true
         Bloodedge, Bloodedge.png, true
@@ -545,7 +547,6 @@ const SkinFile = {
         Clean Gent, CleanGent.png, false
         Yolker, Yolker.png, true
         Voice Acted, VoiceActed.png, true
-        Pariot Locator, PariotLocator.png, trie
         Count Duble'O VII, CountDubleOVII.png, true
         Red-Nosed Reindeer, RedNosedReindeer.png, true
         Reindeer, Reindeer.png, true
@@ -577,7 +578,6 @@ const SkinFile = {
         Dummy, Dummy.png, true
         Alien, Alien.png, true
         Anonymous Father, AnonymousFather.png, true
-        Barista, Barista.png, true
         Cecil, Cecil.png, true
         Deivydoestutorials33, Deivydoestutorials33.png, true
         Idiot, Idiot.png, true
@@ -783,7 +783,6 @@ const SkinFile = {
         Doothekkar, Doothekkar.png, true
         Sacred Harvest, SacredHarvest.png, true
         Toy, Toy.png, true
-        Craftsekkar, Craftsekkar.png, true
         Team Beacon, TeamBeacon.png, true
         Stone, Stone.png, true
         Umdum, Umdum.png, true
@@ -861,7 +860,6 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         Soldier's Gambit, SoldiersGambit.png, true
         Mrs. Big Buckz, MrsBigBuckz.png, true
-        Loveshot, Loveshot.png, true
         Crook Boss, CrookBoss.png, true
         BrawlR Specialist, BrawlRSpecialist.png, true
         Sniper, Sniper.png, true
@@ -923,6 +921,9 @@ const SkinFile = {
         Really Rich Chance, ReallyRichChance.png, true
         Chance Cosplay, ChanceCosplay.png, true
         Golden, Golden.png, false
+    `,
+    "Ringmaster": `
+        Worse Than Spectre?, nuh.png, false
     `
 };
 
@@ -936,16 +937,19 @@ window.addEventListener('DOMContentLoaded', () => {
     RenderSkinCollection(TargetString);
 });
 
-function RenderSkinCollection(DataText){
+function RenderSkinCollection(DataText) {
     const lines = DataText.split('\n').map(line => line.trim()).filter(line => line.length > 0);
     let obtainedOutput = '';
     let obtainableOutput = '';
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.protocol === 'file:';
+    const imageBaseURL = isLocal ? `assets/renders/skins/${CharacterName}/` : `https://cdn.jsdelivr.net/gh/KanderTheCat/ForsakenStats@main/assets/renders/skins/${CharacterName}/`;
+    const placeholderPath = isLocal? 'assets/renders/PlaceholderSkin.png': 'https://cdn.jsdelivr.net/gh/KanderTheCat/ForsakenStats@main/assets/renders/PlaceholderSkin.png';
     lines.forEach(line => {
         const [name, icon, isObtainedStr] = line.split(',').map(item => item.trim());
         const IsObtained = isObtainedStr === 'true';
         const item =
             `<section>
-                <img src="assets/renders/skins/${CharacterName}/${icon}" onerror="this.src='assets/renders/PlaceholderSkin.png';" alt="${name}" loading="lazy">
+                <img src="${imageBaseURL}${icon}" onerror="this.onerror=null; this.src='${placeholderPath}';" alt="${name}">
                 <div>
                     <h3>${name}</h3>
                 </div>
