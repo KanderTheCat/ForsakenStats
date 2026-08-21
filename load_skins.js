@@ -130,6 +130,7 @@ const SkinFile = {
         Martyr, Martyr.png, true
         Crazyblox, Crazyblox.png, true
         Digital Rider, DigitalRider.png, true
+        4x4x4x4, 4x4x4x4.png, false
         1Eggs, 1Eggs.png, true
         Pincushion, Pincushion.png, true
         [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
@@ -462,6 +463,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Retro Defense, RetroDefense.png, false
         Casual, Casual.png, true
         Contrast, Contrast.png, true
         Masque, Masque.png, true
@@ -721,6 +723,7 @@ const SkinFile = {
         Trapper, Trapper.png, true
         Ninja, Ninja.png, true
         Warhead, Warhead.png, true
+        Superballer, Superballer.png, true
         Mumble, Mumble.png, true
         Hooded Raven, HoodedRaven.png, true
         Ninja Santa, NinjaSanta.png, true
@@ -762,6 +765,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Forest Mage, ForestMage.png, true
         Anniversary, Anniversary.png, true
         Catseye, Catseye.png, false
         Voice Acted, VoiceActed.png, true
@@ -864,6 +868,7 @@ const SkinFile = {
         BrawlR Specialist, BrawlRSpecialist.png, true
         Sniper, Sniper.png, true
         BinaryBreacher, BinaryBreacher.png, true
+        Hyperlaser, Hyperlaser.png, false
         Anniversary, Anniversary.png, true
         Luckroll, Luckroll.png, true
         Voice Acted, VoiceActed.png, true
