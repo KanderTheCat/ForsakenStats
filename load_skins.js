@@ -463,7 +463,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
-        Retro Defense, RetroDefense.png, false
+        Retro Defense, RetroDefense.png, true
         Casual, Casual.png, true
         Contrast, Contrast.png, true
         Masque, Masque.png, true
@@ -868,7 +868,7 @@ const SkinFile = {
         BrawlR Specialist, BrawlRSpecialist.png, true
         Sniper, Sniper.png, true
         BinaryBreacher, BinaryBreacher.png, true
-        Hyperlaser, Hyperlaser.png, false
+        Hyperlaser, Hyperlaser.png, true
         Anniversary, Anniversary.png, true
         Luckroll, Luckroll.png, true
         Voice Acted, VoiceActed.png, true
