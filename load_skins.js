@@ -130,7 +130,7 @@ const SkinFile = {
         Martyr, Martyr.png, true
         Crazyblox, Crazyblox.png, true
         Digital Rider, DigitalRider.png, true
-        4x4x4x4, 4x4x4x4.png, false
+        4x4x4x4, 4x4x4x4.png, true
         1Eggs, 1Eggs.png, true
         Pincushion, Pincushion.png, true
         [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
