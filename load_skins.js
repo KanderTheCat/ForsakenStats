@@ -823,7 +823,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
-        DJ, DJ.png, false
+        DJ, DJ.png, true
         Web Surfer, WebSurfer.png, true
         Trendhopper, Trendhopper.png, true
         Voice Acted, VoiceActed.png, true
