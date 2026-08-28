@@ -2,18 +2,18 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 40 days, 10 hours, 47 minutes and 3 seconds
+Time Played: 40 days, 17 hours, 7 minutes and 4 seconds
 
-Survivor Wins: 4644
-Survivor Losses: 3822
-Objectives Completed As Survivor: 12201
+Survivor Wins: 4671
+Survivor Losses: 3849
+Objectives Completed As Survivor: 12266
 
-Killer Wins: 2158
+Killer Wins: 2173
 Killer Losses: 617
-Total Kills: 13578
+Total Kills: 13657
 
-Player Points ($): 77462$
-Net Worth: 1122639$
+Player Points ($): 84042$
+Net Worth: 1129219$
 R$ Spent: 898 R$
 `;
 
@@ -34,9 +34,9 @@ Slasher, Slasher.png, 273
 John Doe, JohnDoe.png, 292
 Noli, Noli.png, 153
 1x1x1x1, 1x1x1x1.png, 234
-Guest 666, Guest666.png, 163
+Guest 666, Guest666.png, 168
 Nosferatu, Nosferatu.png, 200
-Azure, Azure.png, 103
+Azure, Azure.png, 105
 Stalker, stalker_joke.png, 0
 `;
 
@@ -48,7 +48,7 @@ Noob, Noob.png, 216
 Jane Doe, JaneDoe.png, 110
 Builderman, Builderman.png, 112
 007n7, 007n7.png, 112
-Two Time, TwoTime.png, 399
+Two Time, TwoTime.png, 402
 Guest 1337, Guest1337.png, 130
 Taph, Taph.png, 213
 Dusekkar, Dusekkar.png, 120
