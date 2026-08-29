@@ -14,6 +14,7 @@ const SkinFile = {
         The Shining, TheShining.png, true
         Horsemann, Horsemann.png, true
         The Shape, TheShape.png, true
+        XD, XD.png, false
         White Pumpkin, WhitePumpkin.png, true
         Camp Counselor, CampCounselor.png, true
         Farmboy, Farmboy.png, true
@@ -52,6 +53,7 @@ const SkinFile = {
         c0llabk1dd, c0llabk1dd.png, true
         Gourd, Gourd.png, true
         c00kiekidd, c00kiekidd.png, true
+        Krystal, Krystal.png, false
         C00l3r, C00l3r.png, true
         b4ll3rkidd, b4ll3rkidd.png, true
         Cosplayer, Cosplayer.png, true
@@ -73,6 +75,8 @@ const SkinFile = {
         Celebration, Celebration.png, true
         c00lskeleton95, c00lskeleton95.png, true
         P4rtyPwny, P4rtyPwny.png, true
+        Mafioso, Mafioso.png, true
+        PH0NK1DD, PH0NK1DD.png, true
         Yourself, Yourself.png, true
     `,
     "John Doe": `
@@ -90,6 +94,7 @@ const SkinFile = {
         Screamer, Screamer.png, true
         Santa, Santa.png, true
         Crystalized, Crystalized.png, true
+        Bobby, Bobby.png, true
         Butcher's Hook, ButchersHook.png, true
         Pedro.EXE, PedroEXE.png, true
         2017, 2017.png, true
@@ -101,6 +106,7 @@ const SkinFile = {
         RetRoe, RetRoe.png, true
         John Flow, JohnFlow.png, true
         Plagued, Plagued.png, true
+        Rockslide, Rockslide.png, true
         Sharkmelon, Sharkmelon.png, true
         Toon, Toon.png, true
         TV, TV.png, true
@@ -136,10 +142,12 @@ const SkinFile = {
         [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
         Jack Frost, JackFrost.png, true
         One Scoop, OneScoop.png, true
+        Gatlto, Gatlto.png, false
         Hacklord, Hacklord.png, true
         Primordial, Primordial.png, true
         Betrayed, Betrayed.png, true
         Classic, Classic.png, true
+        Counterfeit, Counterfeit.png, true
         Crew Leader, CrewLeader.png, true
         Evil Green Skeleton, EvilGreenSkeleton.png, true
         Green Guest, GreenGuest.png, true
@@ -172,6 +180,7 @@ const SkinFile = {
         Narrator, Narrator.png, true
         Sinister, Sinister.png, true
         Conductor, Conductor.png, true
+        Aero, Aero.png, true
         The Admin, TheAdmin.png, true
         ASPX, ASPX.png, true
         Toolbox, Toolbox.png, true
@@ -202,6 +211,7 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         Confused, Confused.png, true
         Krampus, Krampus.png, true
+        Incognito, Incognito.png, false
         Guest 333, Guest333.png, true
         EVIL DUCK, EVILDUCK.png, true
         Guest 999, Guest999.png, true
@@ -234,6 +244,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
+        Skulldog, Skulldog.png, false
         Toxic Wasteland, ToxicWasteland.png, true
         Red String Theory, RedStringTheory.png, true
         Jester, Jester.png, true
@@ -266,6 +277,7 @@ const SkinFile = {
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
         Earth Day, EarthDay.png, false
+        VIP, VIP.png, true
         The Guide, TheGuide.png, true
         Turking, Turking.png, true
         Targetman, Targetman.png, true
@@ -278,6 +290,8 @@ const SkinFile = {
         Holiday Hen, HolidayHen.png, true
         Santa, Santa.png, true
         Tree Cutter, TreeCutter.png, true
+        The Guy, TheGuy.png, true
+        Buster, Buster.png, false
         Awesome Ninja, AwesomeNinja.png, true
         Modern, Modern.png, true
         Fencer, Fencer.png, true
@@ -331,6 +345,8 @@ const SkinFile = {
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
         Treehugger, Treehugger.png, false
+        VIP, VIP.png, true
+        Overbot, Overbot.png, false
         Culinary Commander, CulinaryCommander.png, true
         Anniversary, Anniversary.png, true
         Chef, Chef.png, true
@@ -355,6 +371,7 @@ const SkinFile = {
         Two Sided, TwoSided.png, true
         Uni, Uni.png, true
         Bandit, Bandit.png, true
+        Trusty Crewmate, TrustyCrewmate.png, true
         Casual, Casual.png, true
         Paperpal, Paperpal.png, true
         Legacy Paperpal, LegacyPaperpal.png, true
@@ -407,6 +424,7 @@ const SkinFile = {
         Legacy Milestone II, LegacyMilestoneII.png, true
         Legacy Milestone I, LegacyMilestoneI.png, true
         VIP, VIP.png, true
+        Astrocat, Astrocat.png, false
         Sixer, Sixer.png, true
         Anniversary, Anniversary.png, true
         Voice Acted, VoiceActed.png, true
@@ -417,6 +435,7 @@ const SkinFile = {
         Tangled Lights, TangledLights.png, true
         Elf, Elf.png, true
         Cold Outside, ColdOutside.png, true
+        Scaredy, Scaredy.png, false
         Wrong, Wrong.png, true
         Inverted, Inverted.png, true
         Trapped, Trapped.png, true
@@ -427,6 +446,7 @@ const SkinFile = {
         Steampunk, Steampunk.png, true
         Bloxxy, Bloxxy.png, true
         Buttermilk, Buttermilk.png, true
+        Pajama Pirate, PajamaPirate.png, true
         Ennakon, Ennakon.png, true
         GASA4 Player, GASA4Player.png, true
         Little Nightmare, LittleNightmare.png, true
@@ -477,10 +497,12 @@ const SkinFile = {
         Elegant, Elegant.png, true
         Office, Office.png, true
         Musicist, Musicist.png, true
+        Chilling Pirate, ChillingPirate.png, true
         Doe, Doe.png, true
         Noir, Noir.png, true
         Divine Flame, DivineFlame.png, true
         Musketeer, Musketeer.png, true
+        Calico, Calico.png, true
         Retro, Retro.png, true
         Victorian, Victorian.png, true
     `,
@@ -502,6 +524,7 @@ const SkinFile = {
         Engineer, Engineer.png, true
         Modern, Modern.png, true
         JJ5x5, JJ5x5.png, true
+        Space Pirate, SpacePirate.png, true
         Paintball, Paintball.png, true
         Cool Guy, CoolGuy.png, true
         Skeletal, Skeletal.png, true
@@ -553,6 +576,8 @@ const SkinFile = {
         Red-Nosed Reindeer, RedNosedReindeer.png, true
         Reindeer, Reindeer.png, true
         Toasty Marshmallow, ToastyMarshmallow.png, true
+        Clown, Clown.png, false
+        Swap, Swap.png, false
         Disasters, Disasters.png, true
         C00l, C00l.png, true
         Pizza Delivery, PizzaDelivery.png, true
@@ -582,6 +607,7 @@ const SkinFile = {
         Anonymous Father, AnonymousFather.png, true
         Cecil, Cecil.png, true
         Deivydoestutorials33, Deivydoestutorials33.png, true
+        tr0l07n, tr0l07n.png, true
         Idiot, Idiot.png, true
         Magic Ninja, MagicNinja.png, true
         Raincoat, Raincoat.png, true
@@ -609,6 +635,8 @@ const SkinFile = {
         Super Stabby Elf, SuperStabbyElf.png, true
         Ice Assassin, IceAssassin.png, true
         Snow Time, SnowTime.png, true
+        YinYang, YinYang.png, true
+        Mosqulto, Mosqulto.png, true
         Bald, Bald.png, true
         Double Life, DoubleLife.png, true
         Fancy, Fancy.png, true
@@ -652,6 +680,7 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         SoyG, SoyG.png, true
         Greenbelt, Greenbelt.png, false
+        Panda, Panda.png, false
         Furtive GI, FurtiveGI.png, true
         Gunner, Gunner.png, true
         Paintballer, Paintballer.png, true
@@ -666,6 +695,7 @@ const SkinFile = {
         Christmas Camo, ChristmasCamo.png, true
         Gingerbread, Gingerbread.png, true
         Tough Santa, ToughSanta.png, true
+        Street Brawler, StreetBrawler.png, true
         Ultrakill, Ultrakill.png, true
         Matt, Matt.png, true
         Molly, Molly.png, true
@@ -691,6 +721,8 @@ const SkinFile = {
         Alien, Alien.png, true
         Jake, Jake.png, true
         Kay-o, Kayo.png, true
+        Tony the Terrible, TonyTheTerrible.png, true
+        Captain Clobber, CaptainClobber.png, true
         Bouncer Guest, BouncerGuest.png, true
         Biker, Biker.png, true
         Invincible, Invincible.png, true
@@ -714,6 +746,7 @@ const SkinFile = {
         Dragon Guest, DragonGuest.png, true
         Sorcerer, Sorcerer.png, true
         Guest Cosplay, GuestCosplay.png, true
+        Golden, Golden.png, false
     `,
     "Taph": `
         Milestone IV, MilestoneIV.png, true
@@ -731,6 +764,7 @@ const SkinFile = {
         Winter Conjuror, WinterConjuror.png, true
         Arctic, Arctic.png, true
         Elf, Elf.png, true
+        Diver, Diver.png, false
         Wayward, Wayward.png, true
         Deadly Dark, DeadlyDark.png, true
         Viridian, Viridian.png, true
@@ -749,6 +783,7 @@ const SkinFile = {
         Tropical Trapper, TropicalTrapper.png, true
         Y2K, Y2K.png, true
         Darkage Ninja, DarkageNinja.png, true
+        Solomon the Scareable, SolomonTheScareable.png, true
         Laughy Taphy, LaughyTaphy.png, true
         The Dark Reaper, TheDarkReaper.png, true
         Nevermoor, Nevermoor.png, true
@@ -775,6 +810,7 @@ const SkinFile = {
         Headless, Headless.png, true
         Snowsekkar, Snowsekkar.png, true
         Jolly Evergreen, JollyEvergreen.png, true
+        Sleepy, Sleepy.png, false
         Medic, Medic.png, true
         Ghosdeeri, Ghosdeeri.png, true
         Doomsekkar, Doomsekkar.png, true
@@ -792,6 +828,7 @@ const SkinFile = {
         Umdum, Umdum.png, true
         ToaZuku, ToaZuku.png, true
         Infernal Sorcerer, InfernalSorcerer.png, true
+        Witch Pirate, WitchPirate.png, true
         Butler, Butler.png, true
         Beachsandar, Beachsandar.png, true
         DuGuittar, DuGuittar.png, true
@@ -828,6 +865,8 @@ const SkinFile = {
         Trendhopper, Trendhopper.png, true
         Voice Acted, VoiceActed.png, true
         Man Face, ManFace.png, true
+        Apocalypse, Apocalypse.png, false
+        Explorer, Explorer.png, false
         Skater, Skater.png, true
         IPad, IPad.png, true
         Musical, Musical.png, true
@@ -836,6 +875,7 @@ const SkinFile = {
         Boy, Boy.png, true
         Flannel, Flannel.png, true
         Kitty Pop, KittyPop.png, true
+        Apple, Apple.png, true
         Bloxaide, Bloxaide.png, true
         Corrupted, Corrupted.png, true
         Solar, Solar.png, true
@@ -863,6 +903,7 @@ const SkinFile = {
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
         Soldier's Gambit, SoldiersGambit.png, true
+        Diamond, Diamond.png, false
         Mrs. Big Buckz, MrsBigBuckz.png, true
         Crook Boss, CrookBoss.png, true
         BrawlR Specialist, BrawlRSpecialist.png, true
@@ -898,6 +939,9 @@ const SkinFile = {
         Take A Chance, TakeAChance.png, true
         Federation, Federation.png, true
         Alien, Alien.png, true
+        Victor the Violent, VictorTheViolent.png, true
+        Fanciful Pirate, FancifulPirate.png, true
+        Toppin' Troll, ToppinTroll.png, true
         Dog, Dog.png, true
         Mr. Worldwide, MrWorldwide.png, true
         Pride, Pride.png, true
