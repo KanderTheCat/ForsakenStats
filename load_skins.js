@@ -94,7 +94,7 @@ const SkinFile = {
         Screamer, Screamer.png, true
         Santa, Santa.png, true
         Crystalized, Crystalized.png, true
-        Bobby, Bobby.png, true
+        Bobby, Bobby.png, false
         Butcher's Hook, ButchersHook.png, true
         Pedro.EXE, PedroEXE.png, true
         2017, 2017.png, true
@@ -180,7 +180,7 @@ const SkinFile = {
         Narrator, Narrator.png, true
         Sinister, Sinister.png, true
         Conductor, Conductor.png, true
-        Aero, Aero.png, true
+        Aero, Aero.png, false
         The Admin, TheAdmin.png, true
         ASPX, ASPX.png, true
         Toolbox, Toolbox.png, true
@@ -695,7 +695,7 @@ const SkinFile = {
         Christmas Camo, ChristmasCamo.png, true
         Gingerbread, Gingerbread.png, true
         Tough Santa, ToughSanta.png, true
-        Street Brawler, StreetBrawler.png, true
+        Street Brawler, StreetBrawler.png, false
         Ultrakill, Ultrakill.png, true
         Matt, Matt.png, true
         Molly, Molly.png, true
