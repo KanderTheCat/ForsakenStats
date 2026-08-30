@@ -435,7 +435,7 @@ const SkinFile = {
         Tangled Lights, TangledLights.png, true
         Elf, Elf.png, true
         Cold Outside, ColdOutside.png, true
-        Scaredy, Scaredy.png, false
+        Scaredy, Scaredy.png, true
         Wrong, Wrong.png, true
         Inverted, Inverted.png, true
         Trapped, Trapped.png, true
