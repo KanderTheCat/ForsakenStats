@@ -636,7 +636,7 @@ const SkinFile = {
         Ice Assassin, IceAssassin.png, true
         Snow Time, SnowTime.png, true
         YinYang, YinYang.png, true
-        Mosqulto, Mosqulto.png, true
+        Mosqulto, Mosqulto.png, false
         Bald, Bald.png, true
         Double Life, DoubleLife.png, true
         Fancy, Fancy.png, true
