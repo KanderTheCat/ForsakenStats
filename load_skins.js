@@ -244,7 +244,7 @@ const SkinFile = {
         Milestone III, MilestoneIII.png, true
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
-        Skulldog, Skulldog.png, false
+        Skulldog, Skulldog.png, true
         Toxic Wasteland, ToxicWasteland.png, true
         Red String Theory, RedStringTheory.png, true
         Jester, Jester.png, true
@@ -346,7 +346,7 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         Treehugger, Treehugger.png, false
         VIP, VIP.png, true
-        Overbot, Overbot.png, false
+        Overbot, Overbot.png, true
         Culinary Commander, CulinaryCommander.png, true
         Anniversary, Anniversary.png, true
         Chef, Chef.png, true
@@ -424,7 +424,7 @@ const SkinFile = {
         Legacy Milestone II, LegacyMilestoneII.png, true
         Legacy Milestone I, LegacyMilestoneI.png, true
         VIP, VIP.png, true
-        Astrocat, Astrocat.png, false
+        Astrocat, Astrocat.png, true
         Sixer, Sixer.png, true
         Anniversary, Anniversary.png, true
         Voice Acted, VoiceActed.png, true
@@ -680,7 +680,7 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         SoyG, SoyG.png, true
         Greenbelt, Greenbelt.png, false
-        Panda, Panda.png, false
+        Panda, Panda.png, true
         Furtive GI, FurtiveGI.png, true
         Gunner, Gunner.png, true
         Paintballer, Paintballer.png, true
@@ -903,7 +903,7 @@ const SkinFile = {
         Milestone II, MilestoneII.png, true
         Milestone I, MilestoneI.png, true
         Soldier's Gambit, SoldiersGambit.png, true
-        Diamond, Diamond.png, false
+        Diamond, Diamond.png, true
         Mrs. Big Buckz, MrsBigBuckz.png, true
         Crook Boss, CrookBoss.png, true
         BrawlR Specialist, BrawlRSpecialist.png, true
