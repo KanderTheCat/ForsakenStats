@@ -27,6 +27,11 @@ Emote Pack #1, EmotePack1.png
 Azure Pack, AzurePack.png
 Emote Pack #2, EmotePack2.png
 Viral Emote Pack #1, ViralEmotePack1.png
+Skin Pack #3, SkinPack3.png
+Forsaken Boombox, ForsakenBoombox.png
+Boombox - Golden Curse, GoldenCurse.png
+Boombox - Spectre, Spectre.png
+Playlist - Underground Cabin, UndergroundCabin.png
 `;
 
 //KILLERS
