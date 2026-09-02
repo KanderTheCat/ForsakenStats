@@ -15,7 +15,7 @@ Total Kills: 13742
 
 Player Points ($): 59830$
 Net Worth: 1135357$
-R$ Spent: 898 R$
+R$ Spent: 1297 R$
 `;
 
 //GAMEPASSES
