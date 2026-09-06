@@ -14,7 +14,7 @@ const SkinFile = {
         The Shining, TheShining.png, true
         Horsemann, Horsemann.png, true
         The Shape, TheShape.png, true
-        XD, XD.png, false
+        XD, XD.png, true
         White Pumpkin, WhitePumpkin.png, true
         Camp Counselor, CampCounselor.png, true
         Farmboy, Farmboy.png, true
@@ -142,7 +142,7 @@ const SkinFile = {
         [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
         Jack Frost, JackFrost.png, true
         One Scoop, OneScoop.png, true
-        Gatito, Gatlto.png, false
+        Gatito, Gatito.png, true
         Hacklord, Hacklord.png, true
         Primordial, Primordial.png, true
         Betrayed, Betrayed.png, true
@@ -291,7 +291,7 @@ const SkinFile = {
         Santa, Santa.png, true
         Tree Cutter, TreeCutter.png, true
         The Guy, TheGuy.png, true
-        Buster, Buster.png, false
+        Buster, Buster.png, true
         Awesome Ninja, AwesomeNinja.png, true
         Modern, Modern.png, true
         Fencer, Fencer.png, true
@@ -636,7 +636,7 @@ const SkinFile = {
         Ice Assassin, IceAssassin.png, true
         Snow Time, SnowTime.png, true
         YinYang, YinYang.png, true
-        Mosquito, Mosqulto.png, false
+        Mosquito, Mosquito.png, false
         Bald, Bald.png, true
         Double Life, DoubleLife.png, true
         Fancy, Fancy.png, true
@@ -695,7 +695,7 @@ const SkinFile = {
         Christmas Camo, ChristmasCamo.png, true
         Gingerbread, Gingerbread.png, true
         Tough Santa, ToughSanta.png, true
-        Street Brawler, StreetBrawler.png, false
+        Street Brawler, StreetBrawler.png, true
         Ultrakill, Ultrakill.png, true
         Matt, Matt.png, true
         Molly, Molly.png, true
@@ -865,7 +865,7 @@ const SkinFile = {
         Trendhopper, Trendhopper.png, true
         Voice Acted, VoiceActed.png, true
         Man Face, ManFace.png, true
-        Apocalypse, Apocalypse.png, false
+        Apocalypse, Apocalypse.png, true
         Explorer, Explorer.png, false
         Skater, Skater.png, true
         IPad, IPad.png, true
