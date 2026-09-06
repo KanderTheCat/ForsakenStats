@@ -142,7 +142,7 @@ const SkinFile = {
         [CLASSIC] Jack Frost, CLASSICJackFrost.png, false
         Jack Frost, JackFrost.png, true
         One Scoop, OneScoop.png, true
-        Gatlto, Gatlto.png, false
+        Gatito, Gatlto.png, false
         Hacklord, Hacklord.png, true
         Primordial, Primordial.png, true
         Betrayed, Betrayed.png, true
@@ -636,7 +636,7 @@ const SkinFile = {
         Ice Assassin, IceAssassin.png, true
         Snow Time, SnowTime.png, true
         YinYang, YinYang.png, true
-        Mosqulto, Mosqulto.png, false
+        Mosquito, Mosqulto.png, false
         Bald, Bald.png, true
         Double Life, DoubleLife.png, true
         Fancy, Fancy.png, true
