@@ -94,7 +94,7 @@ const SkinFile = {
         Screamer, Screamer.png, true
         Santa, Santa.png, true
         Crystalized, Crystalized.png, true
-        Bobby, Bobby.png, false
+        Obby, Obby.png, false
         Butcher's Hook, ButchersHook.png, true
         Pedro.EXE, PedroEXE.png, true
         2017, 2017.png, true
@@ -211,7 +211,7 @@ const SkinFile = {
         Milestone I, MilestoneI.png, true
         Confused, Confused.png, true
         Krampus, Krampus.png, true
-        Incognito, Incognito.png, false
+        Incognito, Incognito.png, true
         Guest 333, Guest333.png, true
         EVIL DUCK, EVILDUCK.png, true
         Guest 999, Guest999.png, true
