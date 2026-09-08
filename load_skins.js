@@ -576,7 +576,7 @@ const SkinFile = {
         Red-Nosed Reindeer, RedNosedReindeer.png, true
         Reindeer, Reindeer.png, true
         Toasty Marshmallow, ToastyMarshmallow.png, true
-        Clown, Clown.png, false
+        Clown, Clown.png, true
         Swap, Swap.png, false
         Disasters, Disasters.png, true
         C00l, C00l.png, true
