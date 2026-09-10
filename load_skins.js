@@ -94,7 +94,7 @@ const SkinFile = {
         Screamer, Screamer.png, true
         Santa, Santa.png, true
         Crystalized, Crystalized.png, true
-        Obby, Obby.png, false
+        Obby, Obby.png, true
         Butcher's Hook, ButchersHook.png, true
         Pedro.EXE, PedroEXE.png, true
         2017, 2017.png, true
