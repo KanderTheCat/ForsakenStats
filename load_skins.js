@@ -53,7 +53,7 @@ const SkinFile = {
         c0llabk1dd, c0llabk1dd.png, true
         Gourd, Gourd.png, true
         c00kiekidd, c00kiekidd.png, true
-        Krystal, Krystal.png, false
+        Krystal, Krystal.png, true
         C00l3r, C00l3r.png, true
         b4ll3rkidd, b4ll3rkidd.png, true
         Cosplayer, Cosplayer.png, true
