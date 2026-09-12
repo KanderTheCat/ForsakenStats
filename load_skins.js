@@ -810,7 +810,7 @@ const SkinFile = {
         Headless, Headless.png, true
         Snowsekkar, Snowsekkar.png, true
         Jolly Evergreen, JollyEvergreen.png, true
-        Sleepy, Sleepy.png, false
+        Sleepy, Sleepy.png, true
         Medic, Medic.png, true
         Ghosdeeri, Ghosdeeri.png, true
         Doomsekkar, Doomsekkar.png, true
