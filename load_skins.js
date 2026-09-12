@@ -764,7 +764,7 @@ const SkinFile = {
         Winter Conjuror, WinterConjuror.png, true
         Arctic, Arctic.png, true
         Elf, Elf.png, true
-        Diver, Diver.png, false
+        Diver, Diver.png, true
         Wayward, Wayward.png, true
         Deadly Dark, DeadlyDark.png, true
         Viridian, Viridian.png, true
