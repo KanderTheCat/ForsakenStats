@@ -577,7 +577,7 @@ const SkinFile = {
         Reindeer, Reindeer.png, true
         Toasty Marshmallow, ToastyMarshmallow.png, true
         Clown, Clown.png, true
-        Swap, Swap.png, false
+        Swap, Swap.png, true
         Disasters, Disasters.png, true
         C00l, C00l.png, true
         Pizza Delivery, PizzaDelivery.png, true
@@ -866,7 +866,7 @@ const SkinFile = {
         Voice Acted, VoiceActed.png, true
         Man Face, ManFace.png, true
         Apocalypse, Apocalypse.png, true
-        Explorer, Explorer.png, false
+        Explorer, Explorer.png, true
         Skater, Skater.png, true
         IPad, IPad.png, true
         Musical, Musical.png, true
