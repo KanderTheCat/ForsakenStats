@@ -180,7 +180,7 @@ const SkinFile = {
         Narrator, Narrator.png, true
         Sinister, Sinister.png, true
         Conductor, Conductor.png, true
-        Aero, Aero.png, false
+        Aero, Aero.png, true
         The Admin, TheAdmin.png, true
         ASPX, ASPX.png, true
         Toolbox, Toolbox.png, true
