@@ -969,7 +969,7 @@ const SkinFile = {
         Retro, Retro.png, true
         Really Rich Chance, ReallyRichChance.png, true
         Chance Cosplay, ChanceCosplay.png, true
-        Golden, Golden.png, false
+        Golden, Golden.png, true
     `,
     "Ringmaster": `
         Worse Than Spectre?, nuh.png, false
