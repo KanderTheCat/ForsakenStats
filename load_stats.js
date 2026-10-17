@@ -2,20 +2,20 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 42 days, 19 hours, 21 minutes and 45 seconds
-Achievements: 109/110
+Time Played: 46 days, 9 hours, 26 minutes and 50 seconds
+Achievements: 109/111
 
-Survivor Wins: 4893
-Survivor Losses: 4023
-Objectives Completed As Survivor: 12921
+Survivor Wins: 5240
+Survivor Losses: 4379
+Objectives Completed As Survivor: 13699
 
-Killer Wins: 2283
-Killer Losses: 640
-Total Kills: 14315
+Killer Wins: 2470
+Killer Losses: 666
+Total Kills: 15363
 
-Player Points ($): 245$
-Net Worth: 1173199$
-R$ Spent: 1297 R$
+Player Points ($): 93775$
+Net Worth: 1242299$
+R$ Spent: 1646 R$
 `;
 
 //GAMEPASSES
@@ -23,45 +23,48 @@ const GamepassFile = `
 V.I.P, VIP.png
 2x Emotes, 2xEmotes.png
 Spec Ops Pack, SpecOpsPack.png
-Emote Pack #1, EmotePack1.png
 Azure Pack, AzurePack.png
-Emote Pack #2, EmotePack2.png
-Viral Emote Pack #1, ViralEmotePack1.png
 Skin Pack #3, SkinPack3.png
+Skin Pack #4, SkinPack4.png
+Emote Pack #1, EmotePack1.png
+Emote Pack #2, EmotePack2.png
+Emote Pack #3, EmotePack3.png
+Viral Emote Pack #1, ViralEmotePack1.png
 Forsaken Boombox, ForsakenBoombox.png
-Boombox - Golden Curse, GoldenCurse.png
-Boombox - Spectre, Spectre.png
-Playlist - Underground Cabin, UndergroundCabin.png
+Golden Curse (Boombox), GoldenCurse.png
+Spectre (Boombox), Spectre.png
+Underground Cabin (Playlist), UndergroundCabin.png
 `;
 
 //KILLERS
 const KillerFile = `
-C00lkidd, C00lkidd.png, 236
-Slasher, Slasher.png, 276
-John Doe, JohnDoe.png, 296
-Noli, Noli.png, 166
-1x1x1x1, 1x1x1x1.png, 240
-Guest 666, Guest666.png, 175
-Nosferatu, Nosferatu.png, 201
-Azure, Azure.png, 117
-Stalker, stalker_joke.png, -99
+c00lkidd, c00lkidd.png, 251
+Slasher, Slasher.png, 283
+John Doe, JohnDoe.png, 300
+Noli, Noli.png, 182
+1x1x1x1, 1x1x1x1.png, 245
+Guest 666, Guest666.png, 190
+Nosferatu, Nosferatu.png, 207
+Azure, Azure.png, 128
+Stalker, Stalker.png, null
 `;
 
 //SURVIVORS
 const SurvivorFile = `
-Shedletsky, Shedletsky.png, 163
-Elliot, Elliot.png, 141
-Noob, Noob.png, 228
-Jane Doe, JaneDoe.png, 119
-Builderman, Builderman.png, 114
-007n7, 007n7.png, 149
-Two Time, TwoTime.png, 403
-Guest 1337, Guest1337.png, 132
-Taph, Taph.png, 219
-Dusekkar, Dusekkar.png, 145
-Veeronica, Veeronica.png, 211
-Chance, Chance.png, 113
-Ringmaster, ringmaster_joke.gif, -99
+Shedletsky, Shedletsky.png, 164
+Elliot, Elliot.png, 142
+Noob, Noob.png, 246
+Jane Doe, JaneDoe.png, 120
+Builderman, Builderman.png, 118
+007n7, 007n7.png, 155
+Two Time, TwoTime.png, 420
+Guest 1337, Guest1337.png, 148
+Taph, Taph.png, 223
+Dusekkar, Dusekkar.png, 150
+Helperbot, Helperbot.png, 44
+Veeronica, Veeronica.png, 213
+Chance, Chance.png, 115
+Ringmaster, Ringmaster.png, null
 `;
 
 function Stats(TargetElement, DataText) {
