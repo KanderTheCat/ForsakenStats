@@ -81,7 +81,9 @@ Template:
 
 Free spots:
     Shedletsky: 
-        1350px 300px
+        1350px 300px (Memoriam)
+    Noob:
+        1050px 300px (Buttermilk)
 
 SKINS:
 8. Milestone
@@ -282,7 +284,7 @@ const SkinFile = {
         Steampunk, 1_1, 600px 300px, true
         Bloxy, 1, 750px 300px, true
         Pajama Pirate, 1, 900px 300px, true
-        Buttermilk, 1_1, 1050px 300px, true
+        
         Ennakon, 1_1, 1200px 300px, true
         GASA4 Player, 1_1, 1350px 300px, true
         Little Nightmare, 1_1, 1500px 300px, true
