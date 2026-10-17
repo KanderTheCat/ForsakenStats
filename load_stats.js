@@ -103,7 +103,6 @@ function Levels(TargetElement, DataText, FolderName) {
                 <div>
                     <h3>${name}</h3>
                     <h3>Level: ${level}</h3>
-                    <button type="button" onclick="ToSkins('${name}')">Skins</button>
                 </div>
             </section>\n`;
     });
