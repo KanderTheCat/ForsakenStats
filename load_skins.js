@@ -634,7 +634,7 @@ const SkinFile = {
         Minesweeper, 1, 150px 450px, true
         Solomon the Scareable, 1, 300px 450px, true
         Superballer, 1, 450px 450px, true
-        Intelligence, 1, 600px 450px, true
+        Intelligence, 1_1, 600px 450px, true
         Plush, 1, 750px 450px, true
         ZeekytheHBomb, 1, 900px 450px, true
     `,
