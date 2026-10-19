@@ -701,8 +701,8 @@ const SkinFile = {
     `,
     "Helperbot":`
         Milestone IV, 8, 0px 0px, false
-        Milestone III, 8, 150px 0px, false
-        Milestone II, 8, 300px 0px, false
+        Milestone III, 8, 150px 0px, true
+        Milestone II, 8, 300px 0px, true
         Milestone I, 8, 450px 0px, true
         MLGBot, 5, 600px 0px, true
         Backup, 1, 750px 0px, true
