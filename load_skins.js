@@ -700,7 +700,7 @@ const SkinFile = {
         Golden, 1, 900px 600px, true
     `,
     "Helperbot":`
-        Milestone IV, 8, 0px 0px, false
+        Milestone IV, 8, 0px 0px, true
         Milestone III, 8, 150px 0px, true
         Milestone II, 8, 300px 0px, true
         Milestone I, 8, 450px 0px, true
