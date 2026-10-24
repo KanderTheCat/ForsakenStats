@@ -30,6 +30,7 @@ Emote Pack #1, EmotePack1.png
 Emote Pack #2, EmotePack2.png
 Emote Pack #3, EmotePack3.png
 Viral Emote Pack #1, ViralEmotePack1.png
+Halloween Music Emote Pack, HalloweenMusicEmotePack.png
 Forsaken Boombox, ForsakenBoombox.png
 Golden Curse (Boombox), GoldenCurse.png
 Spectre (Boombox), Spectre.png
