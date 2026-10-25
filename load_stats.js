@@ -2,19 +2,19 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 47 days, 2 hours, 6 minutes and 24 seconds
+Time Played: 47 days, 8 hours, 1 minute and 5 seconds
 Achievements: 110/111
 
-Survivor Wins: 5317
-Survivor Losses: 4439
-Objectives Completed As Survivor: 13784
+Survivor Wins: 5347
+Survivor Losses: 4463
+Objectives Completed As Survivor: 13813
 
-Killer Wins: 2507
-Killer Losses: 669
-Total Kills: 15567
+Killer Wins: 2522
+Killer Losses: 671
+Total Kills: 15641
 
-Player Points ($): 106488$
-Net Worth: 1255012$
+Player Points ($): 111313$
+Net Worth: 1259837$
 R$ Spent: 1646 R$
 `;
 
@@ -39,7 +39,7 @@ Underground Cabin (Playlist), UndergroundCabin.png
 
 //KILLERS
 const KillerFile = `
-c00lkidd, c00lkidd.png, 252
+c00lkidd, c00lkidd.png, 256
 Slasher, Slasher.png, 285
 John Doe, JohnDoe.png, 301
 Noli, Noli.png, 196
@@ -58,7 +58,7 @@ Noob, Noob.png, 246
 Jane Doe, JaneDoe.png, 123
 Builderman, Builderman.png, 118
 007n7, 007n7.png, 155
-Two Time, TwoTime.png, 421
+Two Time, TwoTime.png, 424
 Guest 1337, Guest1337.png, 148
 Taph, Taph.png, 223
 Dusekkar, Dusekkar.png, 151
