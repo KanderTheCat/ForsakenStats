@@ -35,6 +35,12 @@ h4{
 }
 header{
     margin-bottom: 50px;
+    width: 100%;
+    height: 350px;
+    background-image: url("assets/SpectreBackgroundCut.gif"), url(assets/SpectreBackgroundGlow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 100%;
 }
 aside{
     float: left;
@@ -79,16 +85,14 @@ footer p{
 #logo{
     display: flex;
     justify-content: center;
-    width: 100%;
-}
-#logo img{
-    transition: transform 0.8s ease; 
-}
-#logo img:hover{
-    transform: scale(1.35); 
 }
 #logo img{
     width: 30%;
+    height: 20%;
+    transition: transform 0.8s ease; 
+}
+#logo img:hover{
+    transform: scale(1.2); 
 }
 #stats{
     width: 100%;
