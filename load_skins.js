@@ -851,7 +851,7 @@ const SkinFile = {
     `,
     "Ringmaster":`
         ?, 1, 0px 0px, false
-    `,
+    `, //SURVIVORS NEED ICONS
     "c00lkidd":`
         Milestone IV, 8, 0px 0px, true
         Milestone III, 8, 150px 0px, true
@@ -913,17 +913,17 @@ const SkinFile = {
         Duck, 1, 1650px 150px, true
         Cereal Killer, 1, 1800px 150px, true
         Delirious, 1, 0px 300px, true
-        Retro, 1, 150px 300px, true
-        Lovesick, 1, 300px 300px, true
-        Barber, 1, 450px 300px, true
-        Deep Sleep, 1, 600px 300px, true
-        Evil Teacher, 1, 600px 450px, true, //THIS MOVED
-        Executioner, 1, 750px 300px, true
-        Hitbox Accurate, 1, 900px 300px, true
-        Nun, 1, 1050px 300px, true
-        Combat Initiation, 1, 1200px 300px, true
-        Butcher, 1, 1350px 300px, true
-        Stichhare, 1, 1500px 300px, true
+        Lovesick, 1, 150px 300px, true
+        Barber, 1, 300px 300px, true
+        Deep Sleep, 1, 450px 300px, true
+        Evil Teacher, 1, 600px 450px, true
+        Executioner, 1, 600px 300px, true
+        Hitbox Accurate, 1, 750px 300px, true
+        Nun, 1, 900px 300px, true
+        Combat Initiation, 1, 1050px 300px, true
+        Butcher, 1, 1200px 300px, true
+        Stichhare, 1, 1350px 300px, true
+        Retro, 1, 1500px 300px, true
         Vanity, 1, 1650px 300px, true
         Killer Kyle, 1, 1800px 300px, true
         Homerunner, 1, 0px 450px, true
@@ -940,7 +940,7 @@ const SkinFile = {
         Legacy Milestone III, 7, 750px 0px, true
         Legacy Milestone II, 7, 900px 0px, true
         Legacy Milestone I, 7, 1050px 0px, true
-        MLG, 5, 150px 450px, true, //THIS MOVED
+        MLG, 5, 150px 450px, true
         Treachstone, 4, 1200px 0px, true
         Santa, 3_1, 1350px 0px, true
         Crystalized, 3_1, 1500px 0px, true
@@ -1020,7 +1020,7 @@ const SkinFile = {
         Toon, 1, 450px 450px, true
         The Pestilence, 1, 600px 450px, true
         Diva, 1, 750px 450px, true
-    `, //UP TO FINISH ^^^^ Images Only
+    `,
     "Noli":`
         Milestone IV, 8, 0px 0px, true
         Milestone III, 8, 150px 0px, true
