@@ -8,7 +8,7 @@
 body{
     background-color: rgb(82, 82, 119);
     margin: 20px 50px;
-    background-image: url('assets/animatedBG.gif');
+    background-image: url('assets/BGShadowPC.png'), url('assets/animatedBG.gif');
     background-attachment: fixed;
 }
 h1{
@@ -34,7 +34,7 @@ header{
     display: flex;
     align-items: center;
 }
-a{
+button{
     background-color: black;
     border: 2px double white;
     color: white;
