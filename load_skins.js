@@ -857,8 +857,11 @@ const SkinFile = {
         Milestone III, 8, 150px 0px, true
         Milestone II, 8, 300px 0px, true
         Milestone I, 8, 450px 0px, true
+        Burlap Terror, 6, 750px 300px, true
         c00kiekidd, 3_1, 600px 0px, true
         Gourd, 3_2, 750px 0px, true
+        Riddling Skull, 3_2, 900px 300px, true
+        3t1llmmo0rph, 3_2, 1050px 300px, true
         Krystal, 3_4, 900px 0px, true
         c0llabk1dd, 3_5, 1050px 0px, true
         C00ler, 1, 1200px 0px, true
@@ -893,14 +896,19 @@ const SkinFile = {
         VIP, 5, 600px 0px, true
         Slaughter at Arms, 5, 750px 0px, true
         Pest, 4, 900px 0px, true
+        Guesty, 4, 600px 450px, true
+        Guesty 2.0, 4, 750px 450px, true
         The Shining, 3_1, 1050px 0px, true
         Horsemann, 3_2, 1200px 0px, true
         The Shape, 3_2, 1350px 0px, true
+        Captain Zombie, 3_2, 900px 450px, true
+        Zombie, 3_2, 1050px 450px, true
+        Captain Gourd, 3_2, 1200px 450px, true
         The Easter Marauder, 3_3, 1500px 0px, true
         XD, 3_4, 1650px 0px, true
         Insane Streamer, 3_5, 1800px 0px, true
         Builder Sam, 3_6, 0px 150px, true
-        White Pumpkin, 2, 150px 150px, true
+        Sinister S., 2, 150px 150px, true
         Mystic, 2, 300px 150px, true
         Camp Conselor, 1, 450px 150px, true
         Farmboy, 1, 600px 150px, true
@@ -927,6 +935,7 @@ const SkinFile = {
         Vanity, 1, 1650px 300px, true
         Killer Kyle, 1, 1800px 300px, true
         Homerunner, 1, 0px 450px, true
+        Classic, 1, 1350px 450px, true
         Alfred Drevis, 1, 150px 450px, true
         Persuer, 1, 300px 450px, true
         Subject_0, 1, 450px 450px, true
@@ -942,9 +951,11 @@ const SkinFile = {
         Legacy Milestone I, 7, 1050px 0px, true
         MLG, 5, 150px 450px, true
         Treachstone, 4, 1200px 0px, true
+        Jason, 4, 300px 450px, true
         Santa, 3_1, 1350px 0px, true
         Crystalized, 3_1, 1500px 0px, true
         Screamer, 3_2, 1650px 0px, true
+        Electromaniac, 3_2, 450px 450px, true
         Poached, 3_3, 1800px 0px, true
         Obby, 3_4, 0px 150px, true
         John Dough, 3_5, 150px 150px, true
@@ -953,6 +964,7 @@ const SkinFile = {
         2017, 1, 600px 150px, true
         Baker, 1, 750px 150px, true
         Overgrown, 1, 900px 150px, true
+        Pupcup, 1, 600px 450px, true
         All-Star, 1_1, 1050px 150px, true
         John Dog, 1, 1200px 150px, true
         John Flow, 1, 1350px 150px, true
@@ -993,6 +1005,7 @@ const SkinFile = {
         [CLASSIC] Jack Frost, 3_1, 300px 150px, false
         One Scoop, 3_1, 450px 150px, true
         Pincushion, 3_2, 600px 150px, true
+        Deathwish, 3_2, 900px 450px, true
         Gatito, 3_4, 750px 150px, true
         1Eggs, 3_5, 900px 150px, true
         Hacklord, 2, 1050px 150px, true
@@ -1028,6 +1041,7 @@ const SkinFile = {
         Milestone I, 8, 450px 0px, true
         Metronette, 4, 600px 0px, true
         Narrator, 4, 750px 0px, true
+        Diver, 4, 600px 300px, true
         Conductor, 3_1, 900px 0px, true
         Sinister, 3_2, 1050px 0px, true
         Aero, 3_4, 1200px 0px, true
@@ -1052,6 +1066,7 @@ const SkinFile = {
         The Possessed, 1, 150px 300px, true
         Vira, 1, 300px 300px, true
         Artful, 1, 450px 300px, true
+        SIGIL, 1, 750px 300px, true
     `,
     "Guest 666":`
         Milestone IV, 8, 0px 0px, true
@@ -1060,6 +1075,7 @@ const SkinFile = {
         Milestone I, 8, 450px 0px, true
         Comeuppance, 4, 600px 0px, true
         Krampus, 3_1, 750px 0px, true
+        Monster House, 3_2, 1650px 150px, true
         Incognito, 3_4, 900px 0px, true
         Confused, 3_5, 1050px 0px, true
         Guest 333, 1, 1200px 0px, true
@@ -1080,15 +1096,25 @@ const SkinFile = {
         Photoshop, 1, 1500px 150px, true
     `,
     "Nosferatu":`
+        Milestone IV, 8, 1350px 0px, true
+        Milestone III, 8, 15000px 0px, true
+        Milestone II, 8, 1650px 0px, true
+        Milestone I, 8, 1800px 0px, true
         Snowy Owl, 3_1, 150px 0px, true
         Gluttony, 3_2, 0px 0px, true
+        Undead, 3_2, 0px 150px, true
         RIA, 3_4, 1200px 0px, true
         Vecnas, 1, 300px 0px, true
+        Angel, 1, 150px 150px, true
+        Crow, 1, 300px 150px, true
         Mowl, 1, 450px 0px, true
+        King, 1, 450px 150px, true
         Werewolf, 1, 600px 0px, true
         Classic, 1, 750px 0px, true
+        Millarca, 1, 600px 150px, true
         Arachnid, 1, 900px 0px, true
         Heritage, 1, 1050px 0px, true
+        Necrodancer, 1, 750px 150px, true
     `,
     "Azure":`
         Milestone IV, 8, 0px 0px, true
@@ -1097,6 +1123,7 @@ const SkinFile = {
         Milestone I, 8, 450px 0px, true
         Skulldog, 5, 600px 0px, true
         Toxic Wasteland, 5, 750px 0px, true
+        Raven, 3_2, 300px 300px, true
         RDC, 3_4, 150px 300px, true
         Red String Theory, 1, 900px 0px, true
         Jester, 1, 1050px 0px, true
@@ -1115,6 +1142,7 @@ const SkinFile = {
         Nevermoor, 1, 1050px 150px, true
         Void, 1, 1200px 150px, true
         Bride, 1, 1350px 150px, true
+        Scarecrow, 1, 450px 300px, true
         Traffic, 1, 1500px 150px, true
         FunnyBrushez, 1, 1650px 150px, true
         First Born, 1, 1800px 150px, true
