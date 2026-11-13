@@ -2,19 +2,19 @@
 const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
-Time Played: 48 days, 7 hours, 2 minutes and 4 seconds
+Time Played: 49 days, 2 hours, 40 minutes and 10 seconds
 Achievements: 110/111
 
-Survivor Wins: 5456
-Survivor Losses: 4538
-Objectives Completed As Survivor: 13999
+Survivor Wins: 5485
+Survivor Losses: 4658
+Objectives Completed As Survivor: 14031
 
-Killer Wins: 2574
-Killer Losses: 677
-Total Kills: 15950
+Killer Wins: 2627
+Killer Losses: 682
+Total Kills: 16216
 
-Player Points ($): 130896$
-Net Worth: 1279420$
+Player Points ($): 48711$
+Net Worth: 1295267$
 R$ Spent: 1646 R$
 `;
 
@@ -39,32 +39,32 @@ Underground Cabin (Playlist), UndergroundCabin.png
 
 //KILLERS
 const KillerFile = `
-c00lkidd, c00lkidd.png, 266
-Slasher, Slasher.png, 287
-John Doe, JohnDoe.png, 302
-Noli, Noli.png, 197
-1x1x1x1, 1x1x1x1.png, 247
-Guest 666, Guest666.png, 191
-Nosferatu, Nosferatu.png, 214
+c00lkidd, c00lkidd.png, 269
+Slasher, Slasher.png, 294
+John Doe, JohnDoe.png, 303
+Noli, Noli.png, 202
+1x1x1x1, 1x1x1x1.png, 251
+Guest 666, Guest666.png, 193
+Nosferatu, Nosferatu.png, 225
 Azure, Azure.png, 128
 Stalker, Stalker.png, null
 `;
 
 //SURVIVORS
 const SurvivorFile = `
-Shedletsky, Shedletsky.png, 164
-Elliot, Elliot.png, 142
-Noob, Noob.png, 250
-Jane Doe, JaneDoe.png, 123
-Builderman, Builderman.png, 121
+Elliot, Elliot.png, 143
+Noob, Noob.png, 251
+Shedletsky, Shedletsky.png, 165
+Jane Doe, JaneDoe.png, 128
 007n7, 007n7.png, 156
-Two Time, TwoTime.png, 432
-Guest 1337, Guest1337.png, 148
-Taph, Taph.png, 223
-Dusekkar, Dusekkar.png, 153
+Builderman, Builderman.png, 122
+Guest 1337, Guest1337.png, 151
+Two Time, TwoTime.png, 436
+Dusekkar, Dusekkar.png, 157
+Taph, Taph.png, 224
 Helperbot, Helperbot.png, 100
 Veeronica, Veeronica.png, 213
-Chance, Chance.png, 115
+Chance, Chance.png, 117
 Ringmaster, Ringmaster.png, null
 `;
 
