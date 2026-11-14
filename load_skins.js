@@ -1051,7 +1051,7 @@ const SkinFile = {
         Robert, 1, 1800px 0px, true
         Day of The Dead, 1, 0px 150px, true
         Ephialtes, 1, 150px 150px, true
-        MissingNo., 1_1, 300px 150px, true
+        MissingNo., 1, 300px 150px, true
         Saggital, 1, 450px 150px, true
         Messiah, 1, 600px 150px, true
         Red Room Curse, 1, 750px 150px, true
