@@ -896,14 +896,14 @@ const SkinFile = {
         VIP, 5, 600px 0px, true
         Slaughter at Arms, 5, 750px 0px, true
         Pest, 4, 900px 0px, true
-        Guesty, 4, 600px 450px, true
-        Guesty 2.0, 4, 750px 450px, true
+        Guesty, 4, 750px 450px, true
+        Guesty 2.0, 4, 900px 450px, true
         The Shining, 3_1, 1050px 0px, true
         Horsemann, 3_2, 1200px 0px, true
         The Shape, 3_2, 1350px 0px, true
-        Captain Zombie, 3_2, 900px 450px, true
-        Zombie, 3_2, 1050px 450px, true
-        Captain Gourd, 3_2, 1200px 450px, true
+        Captain Zombie, 3_2, 1050px 450px, true
+        Zombie, 3_2, 1200px 450px, true
+        Captain Gourd, 3_2, 1350px 450px, true
         The Easter Marauder, 3_3, 1500px 0px, true
         XD, 3_4, 1650px 0px, true
         Insane Streamer, 3_5, 1800px 0px, true
@@ -935,7 +935,7 @@ const SkinFile = {
         Vanity, 1, 1650px 300px, true
         Killer Kyle, 1, 1800px 300px, true
         Homerunner, 1, 0px 450px, true
-        Classic, 1, 1350px 450px, true
+        Classic, 1, 1500px 450px, true
         Alfred Drevis, 1, 150px 450px, true
         Persuer, 1, 300px 450px, true
         Subject_0, 1, 450px 450px, true
