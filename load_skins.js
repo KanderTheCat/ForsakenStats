@@ -80,8 +80,6 @@ Template:
         X, 1, 1800px 750px, true
 
 Free spots:
-    Shedletsky: 
-        1350px 300px (Memoriam)
     Noob:
         1050px 300px (Buttermilk)
 
@@ -115,7 +113,6 @@ const SkinFile = {
         Earth Day, 5, 750px 0px, false
         The Guide, 4, 900px 0px, true
         Turking, 4, 1050px 0px, true
-        Targetman, 4, 1200px 0px, true
         Bloxy, 4, 1350px 0px, false
         Anniversary, 3, 1500px 0px, true
         Holiday Hen, 3_1, 1650px 0px, true
@@ -123,6 +120,8 @@ const SkinFile = {
         Tree Cutter, 3_1, 0px 150px, true
         Zombieletsky, 3_2, 150px 150px, true
         Angel of Death, 3_2, 300px 150px, true
+        Smashing Pumpkins, 3_2, 300px 750px, true
+        Universe Hero, 3_2, 450px 750px, true
         The Guy, 3_4, 450px 150px, true
         Buster, 3_4, 600px 150px, true
         Voice Acted, 3_5, 750px 150px, true
@@ -142,18 +141,20 @@ const SkinFile = {
         Light Ninja, 1, 900px 300px, true
         Shadow Ninja, 1, 1050px 300px, true
         Mcgillavry, 1, 1200px 300px, true
-        
+        Memoriam, 1, 1350px 300px, true
         yksteldehS, 1_1, 1500px 300px, true
         Skyfleet, 1_1, 1650px 300px, true
         Vampire, 1, 1800px 300px, true
         Hotdog, 1, 0px 450px, true
         The Heartbroken, 1, 150px 450px, true
+        King, 1, 0px 750px, true
         Ironclad, 1_1, 300px 450px, true
         Olivia, 1, 450px 450px, true
         Figures, 1, 600px 450px, true
         Knight, 1_1, 750px 450px, true
         Rockstar, 1, 900px 450px, true
         Pirate, 1, 1050px 450px, true
+        Neppetski, 1, 150px 750px, true
         Sunderland, 1, 1200px 450px, true
         Y2K, 1, 1350px 450px, true
         Rockin', 1, 1500px 450px, true
@@ -168,6 +169,7 @@ const SkinFile = {
         Specialist, 1, 900px 600px, true
         Guardian Angel, 1_1, 1050px 600px, true
         Telamon, 1, 1200px 600px, true
+        Targetman, 1, 1200px 0px, true
         Mamaletsky, 1_1, 1350px 600px, true
         5 More Shedletskys, 1, 1500px 600px, true
         10 More Shedletskys, 1, 1650px 600px, true
