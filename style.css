@@ -46,7 +46,7 @@ main{
     float: right;
     width: 60%;
     height: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 main div{
     display: flex;
@@ -91,7 +91,7 @@ footer p{
 }
 #stats{
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     margin-bottom: 30px;
     max-width: none;
     min-width: 270px;
@@ -104,7 +104,7 @@ footer p{
     display: grid;
     grid-template-columns: 1fr; 
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
     width: 100%;
     max-width: none;
     min-width: 270px;
@@ -138,12 +138,12 @@ footer p{
 }
 #killers{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     box-sizing: border-box;
 }
 #survivors{
     display: none;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
     box-sizing: border-box;
 }
 #killers section, #survivors section{
