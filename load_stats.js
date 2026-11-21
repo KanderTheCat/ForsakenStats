@@ -3,7 +3,7 @@ const StatsFile = `
 Joined Forsaken - 02.07.2025 (Played one round cause friend told me to play, then left after lol. Also <a href="https://www.youtube.com/watch?v=5bo2k4DvEng">the video of it</a>)
 Started playing Forsaken - 27.09.2025
 Time Played: 49 days, 10 hours, 37 minutes and 40 seconds
-Achievements: 110/111
+Achievements: 111/111
 
 Survivor Wins: 5499
 Survivor Losses: 4705
