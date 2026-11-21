@@ -20,6 +20,18 @@
             <h1>Levels and Stats</h1>
         </header>
         <aside>
+            <img id="TwoTime" src="assets/TwoTimeBlink.gif">
+            <script>
+                const TwoTime = document.getElementById("TwoTime");
+                const death = new Audio('assets/oof.mp3');
+                death.volume = 0.2;
+                TwoTime.addEventListener("click", function(event){
+                    if (TwoTime.getAttribute("src") !== "assets/TwoTimeDead.png"){
+                        TwoTime.setAttribute("src", "assets/TwoTimeDead.png");
+                        death.play();
+                    }
+                })
+            </script>
             <section id="stats" class="borderclass"></section>
             <section id="gamepasses" class="borderclass"></section>
         </aside>

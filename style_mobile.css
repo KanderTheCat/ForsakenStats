@@ -188,3 +188,11 @@ footer p{
     margin-left: auto;
     min-width: 100px;
 }
+#TwoTime{
+    transform: scale(1.75);
+    transform-origin: bottom left;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid rgba(0,0,0,0.3)
+}
