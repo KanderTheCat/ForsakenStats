@@ -91,6 +91,7 @@ const SkinList = {
         5 More Shedletskys, 1, true
         10 More Shedletskys, 1, true
         Golden, 1, true
+        Darkhearted, 5, true
     `,
     "Elliot":`
         Milestone IV, 8, true
@@ -238,6 +239,7 @@ const SkinList = {
         Rook, 1, true
         Z0mb, 3, true
         Sugar Paw, 3, true
+        Pilgrim, 1, true
     `,
     "Jane Doe":`
         Milestone IV, 8, true
@@ -337,6 +339,7 @@ const SkinList = {
         Architect, 3, true
         Failed Experiment, 3, true
         Hammerhead, 3, true
+        Mr. Builder, 1, true
     `,
     "007n7":`
         Milestone IV, 8, true
@@ -376,7 +379,7 @@ const SkinList = {
         Decoy, 1, true
         224o4, 1, true
         tr0l07n, 1, true
-        Sm4rt3st0uppy, 1, true
+        00u53, 1, true
         Dummy, 1, true
         Alien, 1, true
         Anonymous Father, 1, true
@@ -528,6 +531,7 @@ const SkinList = {
         Golden, 1, true
         Flander Fields, 3, true
         Goalie, 3, true
+        Quarterback, 5, true
     `,
     "Taph":`
         Milestone IV, 8, true
@@ -579,6 +583,7 @@ const SkinList = {
         Silken, 3, true
         ALl Hallows, 3, true
         Alchemist, 3, true
+        Golden, 1, false
     `,
     "Dusekkar":`
         Milestone IV, 8, true
@@ -644,6 +649,8 @@ const SkinList = {
         Poison Apples, 3, true
         WilloWisp, 1, true
         Dusella, 3, true
+        Turksekkar, 1, true
+        Shedletsekkar, 5, true
     `,
     "Helperbot":`
         Milestone IV, 8, true
@@ -679,6 +686,7 @@ const SkinList = {
         Helperbot 2.0, 1, true
         Dummy, 1, true
         Angry Robot, 1, true
+        Blingbot, 5, true
     `,
     "Veeronica":`
         Milestone IV, 8, true
@@ -724,6 +732,7 @@ const SkinList = {
         Cabby, 1, true
         Tama, 1, true
         Widow, 3, true
+        Cold Turkey, 5, true
     `,
     "Chance":`
         Fool, 8, true
@@ -1047,6 +1056,7 @@ const SkinList = {
         Infected, 1, true
         Apollyon, 1, true
         Photoshop, 1, true
+        Unthankful, 5, true
     `,
     "Nosferatu":`
         Milestone IV, 8, true
