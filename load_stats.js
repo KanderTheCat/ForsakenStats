@@ -26,6 +26,8 @@ Spec Ops Pack, SpecOpsPack.png
 Azure Pack, AzurePack.png
 Skin Pack #3, SkinPack3.png
 Skin Pack #4, SkinPack4.png
+Thanksgiving Bundle, ThanksgivingBundle.png
+Black Friday Bundle, BlackFridayBundle.png
 Emote Pack #1, EmotePack1.png
 Emote Pack #2, EmotePack2.png
 Emote Pack #3, EmotePack3.png
